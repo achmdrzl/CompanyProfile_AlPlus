@@ -457,7 +457,8 @@
                                 </div>
                                 <div class="portfolio-info">
                                     <div class="portfolio-info-inner">
-                                        <h5><a class="title-link" href="{{ route('project.NsHouse') }}">NS House Pondok Tjandra</a>
+                                        <h5><a class="title-link" href="{{ route('project.NsHouse') }}">NS House Pondok
+                                                Tjandra</a>
                                         </h5>
                                         <p class="portfolio-cates"><a href="#">House</a></p>
                                     </div>

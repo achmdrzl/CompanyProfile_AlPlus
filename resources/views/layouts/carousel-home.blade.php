@@ -1,35 +1,6 @@
 @push('style-alt')
     <style>
-        .center-video {
-            display: block;
-            margin: 0 auto;
-        }
 
-        /* CSS Styles */
-        .video-container {
-            position: relative;
-            width: 100%;
-            max-width: 1920px;
-            /* Set a maximum width if needed */
-        }
-
-        .center-video {
-            width: 100%;
-            height: auto;
-            display: block;
-        }
-
-        .overlay {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0, 0, 0, 0.1);
-            /* Set the background color and opacity */
-            pointer-events: none;
-            /* Allow clicks to pass through the overlay */
-        }
     </style>
 @endpush
 
@@ -50,10 +21,9 @@
                 <!-- SLIDE 1 -->
                 <li data-index="rs-70" data-transition="fade" data-slotamount="default" data-hideafterloop="0"
                     data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300"
-                    data-thumb="{{ asset('assets/video/A/UTUBE FORMAT POLOS - ALPLUS PANTRY - POLOS .mp4') }}" data-rotate="0"
-                    data-saveperformance="off" data-title="" data-param1="1" data-param2="" data-param3=""
-                    data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9=""
-                    data-param10="" data-description="" data-delay="10000">
+                    {{-- data-thumb="{{ asset('assets/video/A/UTUBE FORMAT POLOS - ALPLUS PANTRY - POLOS .mp4') }}" --}} data-rotate="0" data-saveperformance="off" data-title="" data-param1="1"
+                    data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7=""
+                    data-param8="" data-param9="" data-param10="" data-description="" data-delay="10000">
                     <!-- MAIN IMAGE -->
                     {{-- <img src="https://via.placeholder.com/1920x950.png" data-bgcolor='rgba(255,255,255,0)'
                         style='' alt="" data-bgposition="center center" data-bgfit="cover"
@@ -61,13 +31,17 @@
                     <!-- MAIN VIDEO -->
                     <!-- Video Container with Overlay -->
                     <div class="video-container">
-                        <video class="center-video" width="1920" height="1080" controls loop muted autoplay>
+                        <video class="center-video desktop-video" controls loop muted autoplay>
                             <source src="{{ asset('assets/video/A/UTUBE FORMAT POLOS - ALPLUS PANTRY - POLOS .mp4') }}"
                                 type="video/mp4">
                         </video>
-                        <!-- Overlay -->
-                        <div class="overlay"></div>
                     </div>
+
+                    <div class="image-container">
+                        <img class="mobile-image" src="https://via.placeholder.com/1920x950.png"
+                            alt="Placeholder Image">
+                    </div>
+
 
                     <!-- LAYER 1  right image overlay dark-->
 
@@ -267,3 +241,25 @@
         </div>
     </div>
 </div>
+
+<script>
+    // Function to check screen width and show/hide elements accordingly
+    function handleResponsiveLayout() {
+        var video = document.querySelector('.center-video');
+        var image = document.querySelector('.mobile-image');
+
+        if (window.innerWidth <= 767) {
+            video.style.display = 'none';
+            image.style.display = 'block';
+        } else {
+            video.style.display = 'block';
+            image.style.display = 'none';
+        }
+    }
+
+    // Initial check on page load
+    handleResponsiveLayout();
+
+    // Attach the function to the window resize event
+    window.addEventListener('resize', handleResponsiveLayout);
+</script>
