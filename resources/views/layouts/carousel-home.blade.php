@@ -1,3 +1,38 @@
+@push('style-alt')
+    <style>
+        .center-video {
+            display: block;
+            margin: 0 auto;
+        }
+
+        /* CSS Styles */
+        .video-container {
+            position: relative;
+            width: 100%;
+            max-width: 1920px;
+            /* Set a maximum width if needed */
+        }
+
+        .center-video {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.1);
+            /* Set the background color and opacity */
+            pointer-events: none;
+            /* Allow clicks to pass through the overlay */
+        }
+    </style>
+@endpush
+
 <div class="p-0">
     <div class="grid-lines grid-lines-horizontal z-index-1">
         <span class="g-line-horizontal line-bottom color-line-secondary"></span>
@@ -15,13 +50,24 @@
                 <!-- SLIDE 1 -->
                 <li data-index="rs-70" data-transition="fade" data-slotamount="default" data-hideafterloop="0"
                     data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300"
-                    data-thumb="https://via.placeholder.com/1920x950.png" data-rotate="0" data-saveperformance="off"
-                    data-title="" data-param1="1" data-param2="" data-param3="" data-param4="" data-param5=""
-                    data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                    data-thumb="{{ asset('assets/video/A/UTUBE FORMAT POLOS - ALPLUS PANTRY - POLOS .mp4') }}" data-rotate="0"
+                    data-saveperformance="off" data-title="" data-param1="1" data-param2="" data-param3=""
+                    data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9=""
+                    data-param10="" data-description="" data-delay="10000">
                     <!-- MAIN IMAGE -->
-                    <img src="https://via.placeholder.com/1920x950.png" data-bgcolor='rgba(255,255,255,0)'
+                    {{-- <img src="https://via.placeholder.com/1920x950.png" data-bgcolor='rgba(255,255,255,0)'
                         style='' alt="" data-bgposition="center center" data-bgfit="cover"
-                        class="rev-slidebg" data-bgrepeat="no-repeat" data-bgparallax="off" data-no-retina>
+                        class="rev-slidebg" data-bgrepeat="no-repeat" data-bgparallax="off" data-no-retina> --}}
+                    <!-- MAIN VIDEO -->
+                    <!-- Video Container with Overlay -->
+                    <div class="video-container">
+                        <video class="center-video" width="1920" height="1080" controls loop muted autoplay>
+                            <source src="{{ asset('assets/video/A/UTUBE FORMAT POLOS - ALPLUS PANTRY - POLOS .mp4') }}"
+                                type="video/mp4">
+                        </video>
+                        <!-- Overlay -->
+                        <div class="overlay"></div>
+                    </div>
 
                     <!-- LAYER 1  right image overlay dark-->
 
@@ -48,7 +94,7 @@
                         data-color="['#fff','#fff','#fff','#fff']" data-fontweight="['200','200','200','200']"
                         data-whitespace="nowrap" data-type="text" data-responsive_offset="on"
                         data-frames='[{"delay":900,"speed":1000,"frame":"0","from":"x:50px;opacity:0;","to":"o:1;","ease":"power3.inOut"},{"delay":"wait","speed":1000,"frame":"999","to":"x:50px;opacity:0;","ease":"power3.inOut"}]'
-                        data-textAlign="['left','left','left','left']">New Level of Interior
+                        data-textAlign="['left','left','left','left']">High-end Furnishings
                     </div>
 
                     <!-- LAYER 5  Paragraph-->
@@ -60,9 +106,8 @@
                         data-color="['#fff','#fff','#fff','#fff']" data-whitespace="normal" data-type="text"
                         data-responsive_offset="on"
                         data-frames='[{"delay":1200,"speed":1000,"frame":"0","from":"x:50px;opacity:0;","to":"o:1;","ease":"power3.inOut"},{"delay":"wait","speed":1000,"frame":"999","to":"x:50px;opacity:0;","ease":"power3.inOut"}]'
-                        data-textAlign="['center','center','center','center']">We pride ourselves on being
-                        builders — creating architectural and creative solutions to help people realize
-                        their vision and make them a reality. Wanna work with us?
+                        data-textAlign="['center','center','center','center']">Discover the freedom of design at the
+                        palm of your hands. Tweak and decide what’s best for you, and let us make the magic happen.
                     </div>
 
                     <!-- LAYER 6  Read More-->
@@ -74,7 +119,8 @@
                         data-frames='[{"delay":1500,"speed":1000,"frame":"0","from":"x:50px;opacity:0;","to":"o:1;","ease":"power3.inOut"},{"delay":"wait","speed":1000,"frame":"999","to":"x:50px;opacity:0;","ease":"power3.inOut"}]'
                         data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
                         data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"><a
-                            href="portfolio-masonry.html" class="octf-btn octf-btn-primary btn-slider btn-large">View
+                            href="{{ route('projects.index') }}"
+                            class="octf-btn octf-btn-primary btn-slider btn-large">View
                             Projects</a>
                     </div>
 
@@ -109,14 +155,15 @@
                                 </div> --}}
 
                     <!-- LAYER 4  Bold Title-->
-                    <div class="tp-caption tp-resizeme tp-caption-main" id="slide-71-layer-2"
-                        data-x="['center','center','center','center']" data-hoffset="['2','0','0','0']"
-                        data-y="['center','center','center','center']" data-voffset="['-56','-63','-60','-65']"
-                        data-fontsize="['93','72','55','40']" data-lineheight="['83','70','51','55']"
-                        data-color="['#fff','#fff','#fff','#fff']" data-fontweight="['200','200','200','200']"
-                        data-whitespace="nowrap" data-type="text" data-responsive_offset="on"
+                    <div class="tp-caption tp-resizeme tp-caption-main text-center" style="margin-bottom: 80px;"
+                        id="slide-71-layer-2" data-x="['center','center','center','center']"
+                        data-hoffset="['2','0','0','0']" data-y="['center','center','center','center']"
+                        data-voffset="['-56','-63','-60','-65']" data-fontsize="['93','72','55','40']"
+                        data-lineheight="['83','70','51','55']" data-color="['#fff','#fff','#fff','#fff']"
+                        data-fontweight="['200','200','200','200']" data-whitespace="nowrap" data-type="text"
+                        data-responsive_offset="on"
                         data-frames='[{"delay":900,"speed":1000,"frame":"0","from":"x:50px;opacity:0;","to":"o:1;","ease":"power3.inOut"},{"delay":"wait","speed":1000,"frame":"999","to":"x:50px;opacity:0;","ease":"power3.inOut"}]'
-                        data-textAlign="['left','left','left','left']">High-end Interior Design
+                        data-textAlign="['left','left','left','left']">In-House Production <br> from Start to Finish
                     </div>
 
                     <!-- LAYER 5  Paragraph-->
@@ -128,9 +175,9 @@
                         data-color="['#fff','#fff','#fff','#fff']" data-whitespace="normal" data-type="text"
                         data-responsive_offset="on"
                         data-frames='[{"delay":1200,"speed":1000,"frame":"0","from":"x:50px;opacity:0;","to":"o:1;","ease":"power3.inOut"},{"delay":"wait","speed":1000,"frame":"999","to":"x:50px;opacity:0;","ease":"power3.inOut"}]'
-                        data-textAlign="['center','center','center','center']">We pride ourselves on being
-                        builders — creating architectural and creative solutions to help people realize
-                        their vision and make them a reality. Wanna work with us?
+                        data-textAlign="['center','center','center','center']">Supported by a qualified and talented
+                        team of designers, we will help transform your visions into reality. From concept to completion,
+                        trust AL+ to provide you with the best service.
                     </div>
 
                     <!-- LAYER 6  Read More-->
@@ -142,7 +189,8 @@
                         data-frames='[{"delay":1500,"speed":1000,"frame":"0","from":"x:50px;opacity:0;","to":"o:1;","ease":"power3.inOut"},{"delay":"wait","speed":1000,"frame":"999","to":"x:50px;opacity:0;","ease":"power3.inOut"}]'
                         data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
                         data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"><a
-                            href="portfolio-masonry.html" class="octf-btn octf-btn-primary btn-slider btn-large">View
+                            href="{{ route('projects.index') }}"
+                            class="octf-btn octf-btn-primary btn-slider btn-large">View
                             Projects</a>
                     </div>
                 </li>
@@ -175,14 +223,15 @@
                                 </div> --}}
 
                     <!-- LAYER 4  Bold Title-->
-                    <div class="tp-caption tp-resizeme tp-caption-main" id="slide-72-layer-2"
-                        data-x="['center','center','center','center']" data-hoffset="['2','0','0','0']"
-                        data-y="['center','center','center','center']" data-voffset="['-56','-63','-60','-65']"
-                        data-fontsize="['93','72','55','40']" data-lineheight="['83','70','51','55']"
-                        data-color="['#fff','#fff','#fff','#fff']" data-fontweight="['200','200','200','200']"
-                        data-whitespace="nowrap" data-type="text" data-responsive_offset="on"
+                    <div class="tp-caption tp-resizeme tp-caption-main text-center" style="margin-bottom: 80px;"
+                        id="slide-72-layer-2" data-x="['center','center','center','center']"
+                        data-hoffset="['2','0','0','0']" data-y="['center','center','center','center']"
+                        data-voffset="['-56','-63','-60','-65']" data-fontsize="['93','72','55','40']"
+                        data-lineheight="['83','70','51','55']" data-color="['#fff','#fff','#fff','#fff']"
+                        data-fontweight="['200','200','200','200']" data-whitespace="nowrap" data-type="text"
+                        data-responsive_offset="on"
                         data-frames='[{"delay":900,"speed":1000,"frame":"0","from":"x:50px;opacity:0;","to":"o:1;","ease":"power3.inOut"},{"delay":"wait","speed":1000,"frame":"999","to":"x:50px;opacity:0;","ease":"power3.inOut"}]'
-                        data-textAlign="['left','left','left','left']">Best Furniture and Decor
+                        data-textAlign="['left','left','left','left']">The Authentic Mark <br> of TImelessness
                     </div>
 
                     <!-- LAYER 5  Paragraph-->
@@ -194,9 +243,9 @@
                         data-color="['#fff','#fff','#fff','#fff']" data-whitespace="normal" data-type="text"
                         data-responsive_offset="on"
                         data-frames='[{"delay":1200,"speed":1000,"frame":"0","from":"x:50px;opacity:0;","to":"o:1;","ease":"power3.inOut"},{"delay":"wait","speed":1000,"frame":"999","to":"x:50px;opacity:0;","ease":"power3.inOut"}]'
-                        data-textAlign="['center','center','center','center']">We pride ourselves on being
-                        builders — creating architectural and creative solutions to help people realize
-                        their vision and make them a reality. Wanna work with us?
+                        data-textAlign="['center','center','center','center']">Build to last forever, encapsulate the
+                        essence of sophistication with our custom-made furnishings. Step into the next level of comfort
+                        using our premium powder coated aluminum base, and make the best of your own homes.
                     </div>
 
                     <!-- LAYER 6  Read More-->
@@ -208,15 +257,13 @@
                         data-frames='[{"delay":1500,"speed":1000,"frame":"0","from":"x:50px;opacity:0;","to":"o:1;","ease":"power3.inOut"},{"delay":"wait","speed":1000,"frame":"999","to":"x:50px;opacity:0;","ease":"power3.inOut"}]'
                         data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
                         data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"><a
-                            href="portfolio-masonry.html" class="octf-btn octf-btn-primary btn-slider btn-large">View
+                            href="{{ route('projects.index') }}"
+                            class="octf-btn octf-btn-primary btn-slider btn-large">View
                             Projects</a>
                     </div>
                 </li>
-
-
             </ul>
             <div class="tp-bannertimer"></div>
-
         </div>
     </div>
 </div>

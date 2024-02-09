@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <title>Theratio</title>
+    <title>AL +</title>
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/images/favicon.png') }}" />
     <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}" />
     <link rel="stylesheet" href="{{ asset('assets/css/font-awesome.min.css') }}" />
@@ -16,101 +16,50 @@
     <link rel="stylesheet" href="{{ asset('assets/css/lightgallery.css') }}" />
     <link rel="stylesheet" href="{{ asset('assets/css/woocommerce.css') }}" />
     <link rel="stylesheet" href="{{ asset('assets/css/royal-preload.css') }}" />
+    {{-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha384-GLhlTQ8i7uYeewZl995A4SO4GgFAFuFjz9FAe8MTkPGmDp4FdDflgBv6Tt9t+dF" crossorigin="anonymous"> --}}
 
     <link rel="stylesheet" href="{{ asset('assets/style.css') }}" />
     <!-- REVOLUTION SLIDER CSS -->
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/plugins/revolution/revolution/css/settings.css') }}">
     <!-- REVOLUTION NAVIGATION STYLE -->
-    <link rel="stylesheet" type="text/css"
-        href="{{ asset('assets/plugins/revolution/revolution/css/navigation.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/plugins/revolution/revolution/css/navigation.css') }}">
+
+    @stack('style-alt')
 </head>
 
 <body>
     {{-- <div id="royal_preloader"></div> --}}
+
     <div id="page" class="site">
         @include('layouts.header')
 
-        {{-- <div id="side-panel" class="side-panel">
+        <div id="side-panel" class="side-panel">
             <a href="#" class="side-panel-close"><i class="ot-flaticon-close-1"></i></a>
             <div class="side-panel-block">
                 <div class="side-panel-wrap">
                     <div class="the-logo">
                         <a href="index-html">
-                            <img src="{{ asset('assets/images/logo-footer.svg') }}" alt="Theratio">
+                            <img src="{{ asset('assets/images/logo-home-3.svg') }}" alt="AL+">
                         </a>
-                    </div>
-                    <div class="ot-heading">
-                        <h2 class="main-heading">Our Gallery</h2>
-                    </div>
-                    <div class="image-gallery">
-                        <div id="gallery-1" class="gallery galleryid-102 gallery-columns-3 gallery-size-thumbnail">
-                            <figure class="gallery-item">
-                                <div class="gallery-icon landscape">
-                                    <a href="https://via.placeholder.com/150x150.png">
-                                        <img src="https://via.placeholder.com/150x150.png" class=""
-                                            alt="">
-                                    </a>
-                                </div>
-                            </figure>
-                            <figure class="gallery-item">
-                                <div class="gallery-icon landscape">
-                                    <a href="https://via.placeholder.com/150x150.png">
-                                        <img src="https://via.placeholder.com/150x150.png" class=""
-                                            alt="">
-                                    </a>
-                                </div>
-                            </figure>
-                            <figure class="gallery-item">
-                                <div class="gallery-icon landscape">
-                                    <a href="https://via.placeholder.com/150x150.png">
-                                        <img src="https://via.placeholder.com/150x150.png" class=""
-                                            alt="">
-                                    </a>
-                                </div>
-                            </figure>
-                            <figure class="gallery-item">
-                                <div class="gallery-icon landscape">
-                                    <a href="https://via.placeholder.com/150x150.png">
-                                        <img src="https://via.placeholder.com/150x150.png" class=""
-                                            alt="">
-                                    </a>
-                                </div>
-                            </figure>
-                            <figure class="gallery-item">
-                                <div class="gallery-icon landscape">
-                                    <a href="https://via.placeholder.com/150x150.png">
-                                        <img src="https://via.placeholder.com/150x150.png" class=""
-                                            alt="">
-                                    </a>
-                                </div>
-                            </figure>
-                            <figure class="gallery-item">
-                                <div class="gallery-icon landscape">
-                                    <a href="https://via.placeholder.com/150x150.png">
-                                        <img src="https://via.placeholder.com/150x150.png" class=""
-                                            alt="">
-                                    </a>
-                                </div>
-                            </figure>
-                        </div>
                     </div>
                     <div class="ot-heading ">
                         <h2 class="main-heading">Contact Info</h2>
                     </div>
                     <div class="side-panel-cinfo">
                         <ul class="panel-cinfo">
-                            <li class="panel-list-item">
-                                <span class="panel-list-icon"><i class="ot-flaticon-place"></i></span>
-                                <span class="panel-list-text">411 University St, Seattle, USA</span>
-                            </li>
-                            <li class="panel-list-item">
-                                <span class="panel-list-icon"><i class="ot-flaticon-mail"></i></span>
-                                <span class="panel-list-text">theratio_interior@mail.com</span>
-                            </li>
-                            <li class="panel-list-item">
-                                <span class="panel-list-icon"><i class="ot-flaticon-phone-call"></i></span>
-                                <span class="panel-list-text">+1 800 456 789 123</span>
-                            </li>
+                            <li class="footer-list-item">
+                                    <span class="list-item-icon"><i class="ot-flaticon-place"></i></span>
+                                    <span class="list-item-text">Jl. Embong Kenongo 77, Sby</span>
+                                </li>
+                                <li class="footer-list-item">
+                                    <span class="list-item-icon"><i class="ot-flaticon-mail"></i></span>
+                                    <span class="list-item-text">alplus.id@gmail.com</span>
+                                </li>
+                                <li class="footer-list-item">
+                                    <span class="list-item-icon"><i class="ot-flaticon-phone-call"></i></span>
+                                    <span class="list-item-text">+62878-5088-2828</span>
+                                </li>
                         </ul>
                     </div>
                     <div class="side-panel-social">
@@ -125,57 +74,55 @@
                     </div>
                 </div>
             </div>
-        </div> --}}
+        </div>
 
         <div id="content" class="site-content">
-            
             @yield('content')
-
         </div>
 
 
         <footer id="site-footer" class="site-footer">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 mb-4 mb-xl-0">
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 mb-4 mb-xl-0">
                         <div class="widget-footer">
-                            <img src="{{ asset('assets/images/logo-footer.svg') }}" class="footer-logo"
-                                alt="">
-                            <p>We provides a full range of interior design, architectural design.</p>
+                            <img src="{{ asset('assets/images/logo-home-3.svg') }}" class="footer-logo" alt="">
+                            <p>Made to last forever. Experience AL+, experience #ADefinitePlus.</p>
                             <div class="footer-social list-social">
                                 <ul>
                                     <li><a href="http://facebook.com" target="_self"><i
                                                 class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="http://twitter.com" target="_self"><i
-                                                class="fab fa-twitter"></i></a></li>
+                                    <li><a href="http://twitter.com" target="_self"><i class="fab fa-twitter"></i></a>
+                                    </li>
                                     <li><a href="http://linkedin.com" target="_self"><i
                                                 class="fab fa-linkedin-in"></i></a></li>
                                     <li><a href="http://instagram" target="_self"><i
-                                                class="fab fa-instagram"></i></a></li>
+                                                class="fab fa-instagram"></i></a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 mb-4 mb-xl-0">
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 mb-4 mb-xl-0">
                         <div class="widget-footer">
                             <h6>Contacts</h6>
                             <ul class="footer-list">
                                 <li class="footer-list-item">
                                     <span class="list-item-icon"><i class="ot-flaticon-place"></i></span>
-                                    <span class="list-item-text">411 University St, Seattle, USA</span>
+                                    <span class="list-item-text">Jl. Embong Kenongo 77, Sby</span>
                                 </li>
                                 <li class="footer-list-item">
                                     <span class="list-item-icon"><i class="ot-flaticon-mail"></i></span>
-                                    <span class="list-item-text">theratio_interior@mail.com</span>
+                                    <span class="list-item-text">alplus.id@gmail.com</span>
                                 </li>
                                 <li class="footer-list-item">
                                     <span class="list-item-icon"><i class="ot-flaticon-phone-call"></i></span>
-                                    <span class="list-item-text">+1 800 456 789 123</span>
+                                    <span class="list-item-text">+62878-5088-2828</span>
                                 </li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 mb-4 mb-md-0">
+                    {{-- <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 mb-4 mb-md-0">
                         <div class="widget-footer widget-contact">
                             <h6>Latest Projects</h6>
                             <ul>
@@ -184,8 +131,8 @@
                                 <li><a href="#">Private House in Spain</a></li>
                             </ul>
                         </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                    </div> --}}
+                    {{-- <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
                         <div class="widget-footer footer-widget-subcribe">
                             <h6>Subscribe</h6>
                             <form class="mc4wp-form" method="post">
@@ -200,7 +147,7 @@
                             </form>
                             <p>Follow our newsletter to stay updated about agency.</p>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </footer><!-- #site-footer -->
@@ -209,7 +156,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-7 col-md-12 mb-4 mb-lg-0">
-                        <p>Copyright © 2020 Theratio by <a class="text-light" href="#">ThemeModern</a>. All
+                        <p>Copyright © 2023<a class="text-light" href="#"></a> All
                             Rights Reserved.</p>
                     </div>
                     <div class="col-lg-5 col-md-12 align-self-center">
@@ -229,7 +176,10 @@
 
 
     </div><!-- #page -->
-    <a id="back-to-top" href="#" class="show"><i class="ot-flaticon-left-arrow"></i></a>
+    {{-- <a id="back-to-top" href="#" class="show"><i class="ot-flaticon-left-arrow"></i></a> --}}
+    <a id="back-to-top" href="https://wa.me/yourphonenumber" class="show">
+        <i class="fab fa-whatsapp"></i>
+    </a>
     <!-- jQuery -->
     <script src="{{ asset('assets/js/jquery.min.js') }}"></script>
     <script src="{{ asset('assets/js/mousewheel.min.js') }}"></script>
@@ -240,7 +190,7 @@
     <script src="{{ asset('assets/js/easypiechart.min.js') }}"></script>
     <script src="{{ asset('assets/js/jquery.countdown.min.js') }}"></script>
     <script src="{{ asset('assets/js/scripts.js') }}"></script>
-    <script src="{{ asset('assets/js/royal_preloader.min.js') }}"></script>
+    {{-- <script src="{{ asset('assets/js/royal_preloader.min.js') }}"></script> --}}
     <!-- REVOLUTION JS FILES -->
 
     <script src="{{ asset('assets/plugins/revolution/revolution/js/jquery.themepunch.tools.min.js') }}"></script>
@@ -251,7 +201,7 @@
 
     <!-- REVOLUTION SLIDER SCRIPT FILES -->
     <script src="{{ asset('assets/js/rev-script-1.js') }}"></script>
-    <script>
+    {{-- <script>
         window.jQuery = window.$ = jQuery;
         (function($) {
             "use strict";
@@ -261,7 +211,7 @@
                 background: '#1a1a1a',
             });
         })(jQuery);
-    </script>
+    </script> --}}
 </body>
 
 </html>

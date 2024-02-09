@@ -1,64 +1,9 @@
 @extends('layouts.main')
 
 @section('content')
-
     @include('layouts.carousel-home')
 
-    {{-- <section class="story-1">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-12">
-                    <div class="story-text">
-                        <p>“Even if you don’t have a ready sketch of what you want – we will help you to get the
-                            result you dreamed of.”</p>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-12">
-                    <div class="story-author">
-                        <img src="https://via.placeholder.com/140x140.png" class="" alt="">
-                        <div class="story-content">
-                            <h5 class="story-title">David Oswald</h5>
-                            <p class="story-description">founder of company</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> --}}
-
-    <section class="about-1">
-        <div class="grid-lines grid-lines-vertical">
-            <span class="g-line-vertical line-left color-line-default"></span>
-            <span class="g-line-vertical line-center color-line-default"></span>
-            <span class="g-line-vertical line-right color-line-default"></span>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-12 mb-5 mb-lg-0">
-                    <div class="about-img-1">
-                        <img src="https://via.placeholder.com/670x642.png" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-12 align-self-center">
-                    <div class="about-content-1 ml-xl-70">
-                        <div class="ot-heading is-dots">
-                            <span>[ about company ]</span>
-                            <h2 class="main-heading">From Sketch to Life</h2>
-                        </div>
-                        <p>The basic philosophy of our studio is to create individual, aesthetically stunning
-                            solutions for our customers by lightning-fast development of projects employing
-                            unique styles and architecture. Even if you don’t have a ready sketch of what you
-                            want – we will help you to get the result you dreamed of.</p>
-                        <div class="ot-button">
-                            <a href="portfolio-masonry.html" class="octf-btn octf-btn-dark">View Projects</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <div class="client-1 bg-light-1">
+    {{-- <div class="client-1 bg-light-1">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12">
@@ -115,7 +60,62 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
+
+    {{-- <section class="story-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12">
+                    <div class="story-text">
+                        <p>“Even if you don’t have a ready sketch of what you want – we will help you to get the
+                            result you dreamed of.”</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="story-author">
+                        <img src="https://via.placeholder.com/140x140.png" class="" alt="">
+                        <div class="story-content">
+                            <h5 class="story-title">David Oswald</h5>
+                            <p class="story-description">founder of company</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> --}}
+
+    <section class="about-1">
+        <div class="grid-lines grid-lines-vertical">
+            <span class="g-line-vertical line-left color-line-default"></span>
+            <span class="g-line-vertical line-center color-line-default"></span>
+            <span class="g-line-vertical line-right color-line-default"></span>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 mb-5 mb-lg-0">
+                    <div class="about-img-1">
+                        <img src="{{ asset('assets/images/A/(A2)GOLF5.png') }}" alt="About AL+">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 align-self-center">
+                    <div class="about-content-1 ml-xl-70">
+                        <div class="ot-heading is-dots mb-3">
+                            <span>[ about AL+ ]</span>
+                            <h2 class="main-heading">Striving Elegance in Every Design</h2>
+                        </div>
+                        <p>In AL+, we are dedicated to providing the highest quality of aluminum furniture for our clients.
+                            We aim to create aesthetically pleasing kitchen and wardrobe solutions that can still perform
+                            its utmost functionality.<br>
+                            We think, we sketch, we build. Reach us if you have something in your mind – even as simple as
+                            the color you’d want your countertop to be.</p>
+                        <div class="ot-button">
+                            <a href="{{ route('projects.index') }}" class="octf-btn octf-btn-dark">View Projects</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <div>
         <div class="container-fluid">
@@ -128,7 +128,7 @@
                             </a>
                             <div class="cate-item_content">
                                 <a href="#">
-                                    <h2>Office Spaces<span class="number-stroke">01</span></h2>
+                                    <h2>Kitchen Solution<span class="number-stroke">01</span></h2>
                                 </a>
                             </div>
                         </div>
@@ -142,7 +142,7 @@
                             </a>
                             <div class="cate-item_content">
                                 <a href="#">
-                                    <h2>Public Spaces<span class="number-stroke">02</span></h2>
+                                    <h2>Built-in Wardrobess<span class="number-stroke">02</span></h2>
                                 </a>
                             </div>
                         </div>
@@ -156,7 +156,7 @@
                             </a>
                             <div class="cate-item_content">
                                 <a href="#">
-                                    <h2>Residential Spaces<span class="number-stroke">03</span></h2>
+                                    <h2>Custom Furnitures<span class="number-stroke">03</span></h2>
                                 </a>
                             </div>
                         </div>
@@ -166,7 +166,7 @@
         </div>
     </div>
 
-    <section class="services-1">
+    {{-- <section class="services-1">
         <div class="grid-lines grid-lines-vertical">
             <span class="g-line-vertical line-left color-line-default"></span>
             <span class="g-line-vertical line-center color-line-default"></span>
@@ -188,11 +188,11 @@
                         class="icon-box icon-box--bg-img icon-box--icon-top icon-box--is-line-hover icon-bg-1 text-center">
                         <div class="icon-main"><img src="https://via.placeholder.com/74x84.png" alt=""></div>
                         <div class="content-box">
-                            <h5><a href="servcies-detail-1.html">Design & Planning</a></h5>
+                            <h5><a href="#">Design & Planning</a></h5>
                             <p>We will help you to get the result you dreamed of.</p>
                         </div>
                         <div class="link-box">
-                            <a href="servcies-detail-1.html" class="btn-details">READ MORE</a>
+                            <a href="#" class="btn-details">READ MORE</a>
                         </div>
                     </div>
                 </div>
@@ -201,11 +201,11 @@
                         class="icon-box icon-box--bg-img icon-box--icon-top icon-box--is-line-hover icon-bg-2 text-center">
                         <div class="icon-main"><img src="https://via.placeholder.com/74x84.png" alt=""></div>
                         <div class="content-box">
-                            <h5><a href="servcies-detail-1.html">Custom Solutions</a></h5>
+                            <h5><a href="#">Custom Solutions</a></h5>
                             <p>Individual, aesthetically stunning solutions for customers.</p>
                         </div>
                         <div class="link-box">
-                            <a href="servcies-detail-1.html" class="btn-details">READ MORE</a>
+                            <a href="#" class="btn-details">READ MORE</a>
                         </div>
                     </div>
                 </div>
@@ -214,17 +214,17 @@
                         class="icon-box icon-box--bg-img icon-box--icon-top icon-box--is-line-hover icon-bg-3 text-center">
                         <div class="icon-main"><img src="https://via.placeholder.com/74x84.png" alt=""></div>
                         <div class="content-box">
-                            <h5><a href="servcies-detail-1.html">Furniture & Decor</a></h5>
+                            <h5><a href="#">Furniture & Decor</a></h5>
                             <p>We create and produce our product design lines.</p>
                         </div>
                         <div class="link-box">
-                            <a href="servcies-detail-1.html" class="btn-details">READ MORE</a>
+                            <a href="#" class="btn-details">READ MORE</a>
                         </div>
                     </div>
                 </div>
-                {{-- <div class="space-120"></div> --}}
+                <div class="space-120"></div>
             </div>
-            {{-- <div class="row">
+            <div class="row">
                 <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 mb-4 mb-xl-0">
                     <div class="ot-counter">
                         <div>
@@ -265,155 +265,224 @@
                         <h6>Offices Worldwide</h6>
                     </div>
                 </div>
-            </div> --}}
-        </div>
-    </section>
-
-    <section class="p-0">
-        <div class="projects-grid pf_4_cols style-2 p-info-s2 img-scale w-auto no-gaps mx-0">
-            <div class="grid-sizer"></div>
-            <div class="project-item category-19 thumb2x">
-                <div class="projects-box">
-                    <div class="projects-thumbnail">
-                        <a href="portfolio-standar.html">
-                            <img src="https://via.placeholder.com/1440x720.png" alt="">
-                        </a>
-                        <div class="overlay">
-                            <h5>Stylish Family Appartment</h5>
-                            <i class="ot-flaticon-add"></i>
-                        </div>
-                    </div>
-                    <div class="portfolio-info">
-                        <div class="portfolio-info-inner">
-                            <h5><a class="title-link" href="portfolio-standar.html">Stylish Family
-                                    Appartment</a></h5>
-                            <p class="portfolio-cates"><a href="#">Interior</a></p>
-                        </div>
-                        <a class="overlay" href="portfolio-standar.html"></a>
-                    </div>
-                </div>
-            </div>
-            <div class="project-item category-14 ">
-                <div class="projects-box">
-                    <div class="projects-thumbnail">
-                        <a href="portfolio-detail-slider.html">
-                            <img src="https://via.placeholder.com/720x720.png" alt="">
-                        </a>
-                        <div class="overlay">
-                            <h5>Minimal Guests House</h5>
-                            <i class="ot-flaticon-add"></i>
-                        </div>
-                    </div>
-                    <div class="portfolio-info">
-                        <div class="portfolio-info-inner">
-                            <h5><a class="title-link" href="portfolio-detail-slider.html">Minimal Guests
-                                    House</a></h5>
-                            <p class="portfolio-cates">
-                                <a href="#">Decor</a>
-                                <a href="#">Interior</a>
-                            </p>
-                        </div>
-                        <a class="overlay" href="portfolio-detail-slider.html"></a>
-                    </div>
-                </div>
-            </div>
-            <div class="project-item category-15 ">
-                <div class="projects-box">
-                    <div class="projects-thumbnail">
-                        <a href="portfolio-left.html">
-                            <img src="https://via.placeholder.com/720x720.png" alt="">
-                        </a>
-                        <div class="overlay">
-                            <h5>Art Family Residence</h5>
-                            <i class="ot-flaticon-add"></i>
-                        </div>
-                    </div>
-                    <div class="portfolio-info">
-                        <div class="portfolio-info-inner">
-                            <h5><a class="title-link" href="portfolio-left.html">Art Family Residence</a></h5>
-                            <p class="portfolio-cates"><a href="#">Architecture</a></p>
-                        </div>
-                        <a class="overlay" href="portfolio-left.html"></a>
-                    </div>
-                </div>
-            </div>
-            <div class="project-item category-20 ">
-                <div class="projects-box">
-                    <div class="projects-thumbnail">
-                        <a href="portfolio-right.html">
-                            <img src="https://via.placeholder.com/720x720.png" alt="">
-                        </a>
-                        <div class="overlay">
-                            <h5>Private House in Spain</h5>
-                            <i class="ot-flaticon-add"></i>
-                        </div>
-                    </div>
-                    <div class="portfolio-info">
-                        <div class="portfolio-info-inner">
-                            <h5><a class="title-link" href="portfolio-right.html">Private House in Spain</a>
-                            </h5>
-                            <p class="portfolio-cates"><a href="#">Furniture</a></p>
-                        </div>
-                        <a class="overlay" href="portfolio-right.html"></a>
-                    </div>
-                </div>
-            </div>
-            <div class="project-item category-19 ">
-                <div class="projects-box">
-                    <div class="projects-thumbnail">
-                        <a href="portfolio-small.html">
-                            <img src="https://via.placeholder.com/720x720.png" alt="">
-                        </a>
-                        <div class="overlay">
-                            <h5>Modern Villa in Belgium</h5>
-                            <i class="ot-flaticon-add"></i>
-                        </div>
-                    </div>
-                    <div class="portfolio-info">
-                        <div class="portfolio-info-inner">
-                            <h5><a class="title-link" href="portfolio-small.html">Modern Villa in Belgium</a>
-                            </h5>
-                            <p class="portfolio-cates"><a href="#">Furniture</a></p>
-                        </div>
-                        <a class="overlay" href="portfolio-small.html"></a>
-                    </div>
-                </div>
-            </div>
-            <div class="project-item category-14 thumb2x">
-                <div class="projects-box">
-                    <div class="projects-thumbnail">
-                        <a href="portfolio-big.html">
-                            <img src="https://via.placeholder.com/1440x720.png" alt="">
-                        </a>
-                        <div class="overlay">
-                            <h5>Minimalistic Style Appartment</h5>
-                            <i class="ot-flaticon-add"></i>
-                        </div>
-                    </div>
-                    <div class="portfolio-info">
-                        <div class="portfolio-info-inner">
-                            <h5><a class="title-link" href="portfolio-big.html">Minimalistic Style
-                                    Appartment</a></h5>
-                            <p class="portfolio-cates"><a href="#">Furniture</a><a href="#">interior</a></p>
-                        </div>
-                        <a class="overlay" href="portfolio-big.html"></a>
-                    </div>
-                </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 
-    <section class="skill-1">
-        {{-- <div class="grid-lines grid-lines-vertical">
+    <section class="our-portfolio-slide">
+        <div class="grid-lines grid-lines-vertical">
             <span class="g-line-vertical line-left color-line-default"></span>
             <span class="g-line-vertical line-center color-line-default"></span>
             <span class="g-line-vertical line-right color-line-default"></span>
-        </div> --}}
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 text-center theratio-align-center">
+                    <div class="ot-heading is-dots">
+                        <span>[ our portfolio ]</span>
+                        <h2 class="main-heading">Works</h2>
+                    </div>
+                    <div class="space-40"></div>
+                    <div class="project-slider projects-grid style-1 img-scale m-0 owl-theme owl-carousel">
+                        <div class="project-items category-19 ">
+                            <div class="projects-box">
+                                <div class="projects-thumbnail">
+                                    <a href="{{ route('project.Lpetclinic') }}">
+                                        <img src="https://ik.imagekit.io/dxofqajmq/AlPlus%20Projects/Ms.%20L%20Pet%20Clinic/(7272)PET3_5MiqT73QN.png?updatedAt=1707442814663"
+                                            alt="Project Pet Clinic">
+                                    </a>
+                                    <div class="overlay">
+                                        <h5>Ms. L Pet Clinic</h5>
+                                        <i class="ot-flaticon-add"></i>
+                                    </div>
+                                </div>
+                                <div class="portfolio-info">
+                                    <div class="portfolio-info-inner">
+                                        <h5><a class="title-link" href="{{ route('project.Lpetclinic') }}">Ms. L Pet
+                                                Clinic</a>
+                                        </h5>
+                                        <p class="portfolio-cates"><a href="{{ route('project.Lpetclinic') }}">Pet
+                                                Clinic</a></p>
+                                    </div>
+                                    <a class="overlay" href="{{ route('project.Lpetclinic') }}"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-items category-14 ">
+                            <div class="projects-box">
+                                <div class="projects-thumbnail">
+                                    <a href="{{ route('project.Rhouse') }}">
+                                        <img src="https://ik.imagekit.io/dxofqajmq/AlPlus%20Projects/Mr.%20R%20House/(7272)RON_FR1T8itlf.png?updatedAt=1707442794361"
+                                            alt="Project R House">
+                                    </a>
+                                    <div class="overlay">
+                                        <h5>Mr. R House</h5>
+                                        <i class="ot-flaticon-add"></i>
+                                    </div>
+                                </div>
+                                <div class="portfolio-info">
+                                    <div class="portfolio-info-inner">
+                                        <h5><a class="title-link" href="{{ route('project.Rhouse') }}">Mr. R House</a></h5>
+                                        <p class="portfolio-cates"><a href="{{ route('project.Rhouse') }}">House</a></p>
+                                    </div>
+                                    <a class="overlay" href="{{ route('project.Rhouse') }}"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-items category-15 ">
+                            <div class="projects-box">
+                                <div class="projects-thumbnail">
+                                    <a href="{{ route('project.Lhouse') }}">
+                                        <img src="https://ik.imagekit.io/dxofqajmq/AlPlus%20Projects/Mr.%20L%20House/(7272)KLAUR2_hRm9c-5GP.png?updatedAt=1707442774651"
+                                            alt="Project L House">
+                                    </a>
+                                    <div class="overlay">
+                                        <h5>Mr. L House</h5>
+                                        <i class="ot-flaticon-add"></i>
+                                    </div>
+                                </div>
+                                <div class="portfolio-info">
+                                    <div class="portfolio-info-inner">
+                                        <h5><a class="title-link" href="{{ route('project.Lhouse') }}">Mr. L House</a>
+                                        </h5>
+                                        <p class="portfolio-cates"><a href="{{ route('project.Lhouse') }}">House</a></p>
+                                    </div>
+                                    <a class="overlay" href="{{ route('project.Lhouse') }}"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-items category-20 ">
+                            <div class="projects-box">
+                                <div class="projects-thumbnail">
+                                    <a href="{{ route('project.Hkitchen') }}">
+                                        <img src="https://ik.imagekit.io/dxofqajmq/AlPlus%20Projects/Mr.%20H%20Kitchen/(7272)SUKHAR5_O75oQgHvw.png?updatedAt=1707442751087"
+                                            alt="Project H Kitchen">
+                                    </a>
+                                    <div class="overlay">
+                                        <h5>Mr. H Kitchen</h5>
+                                        <i class="ot-flaticon-add"></i>
+                                    </div>
+                                </div>
+                                <div class="portfolio-info">
+                                    <div class="portfolio-info-inner">
+                                        <h5><a class="title-link" href="{{ route('project.Hkitchen') }}">Mr. H
+                                                Kitchen</a></h5>
+                                        <p class="portfolio-cates"><a href="{{ route('project.Hkitchen') }}">Kitchen</a>
+                                        </p>
+                                    </div>
+                                    <a class="overlay" href="{{ route('project.Hkitchen') }}"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-items category-20 ">
+                            <div class="projects-box">
+                                <div class="projects-thumbnail">
+                                    <a href="{{ route('project.MsDiana') }}">
+                                        <img src="https://ik.imagekit.io/dxofqajmq/AlPlus%20Projects/Ms.%20Diana/(7272)DIANA2_000%201_NZfD7ACzP.jpg?updatedAt=1707443076126"
+                                            alt="Project D House">
+                                    </a>
+                                    <div class="overlay">
+                                        <h5>Ms. D House</h5>
+                                        <i class="ot-flaticon-add"></i>
+                                    </div>
+                                </div>
+                                <div class="portfolio-info">
+                                    <div class="portfolio-info-inner">
+                                        <h5><a class="title-link" href="{{ route('project.MsDiana') }}">Ms. D House</a>
+                                        </h5>
+                                        <p class="portfolio-cates"><a href="#">House</a></p>
+                                    </div>
+                                    <a class="overlay" href="{{ route('project.MsDiana') }}"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-items category-20 ">
+                            <div class="projects-box">
+                                <div class="projects-thumbnail">
+                                    <a href="{{ route('project.BPuryGalaxy') }}">
+                                        <img src="https://ik.imagekit.io/dxofqajmq/AlPlus%20Projects/B%20House%20Puri%20Galaxy/(7272)_Z8cQv3WrQ.jpg?updatedAt=1707444775994"
+                                            alt="Project B Puri Galaxy">
+                                    </a>
+                                    <div class="overlay">
+                                        <h5>B House Puri Galaxy</h5>
+                                        <i class="ot-flaticon-add"></i>
+                                    </div>
+                                </div>
+                                <div class="portfolio-info">
+                                    <div class="portfolio-info-inner">
+                                        <h5><a class="title-link" href="{{ route('project.BPuryGalaxy') }}">B House Puri
+                                                Galaxy</a></h5>
+                                        <p class="portfolio-cates"><a
+                                                href="{{ route('project.BPuryGalaxy') }}">Kitchen</a>
+                                        </p>
+                                    </div>
+                                    <a class="overlay" href="{{ route('project.BPuryGalaxy') }}"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-items category-19 ">
+                            <div class="projects-box">
+                                <div class="projects-thumbnail">
+                                    <a href="{{ route('project.NgHouse') }}">
+                                        <img src="https://ik.imagekit.io/dxofqajmq/AlPlus%20Projects/NG-house/720_91glgpoa4.png?updatedAt=1707445619829"
+                                            alt="Project NG House Pagesangan">
+                                    </a>
+                                    <div class="overlay">
+                                        <h5>NG House Pagesangan</h5>
+                                        <i class="ot-flaticon-add"></i>
+                                    </div>
+                                </div>
+                                <div class="portfolio-info">
+                                    <div class="portfolio-info-inner">
+                                        <h5><a class="title-link" href="{{ route('project.NgHouse') }}">NG House
+                                                Pagesangan</a>
+                                        </h5>
+                                        <p class="portfolio-cates"><a href="#">House</a></p>
+                                    </div>
+                                    <a class="overlay" href="{{ route('project.NgHouse') }}"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-items category-19 ">
+                            <div class="projects-box">
+                                <div class="projects-thumbnail">
+                                    <a href="{{ route('project.NsHouse') }}">
+                                        <img src="https://ik.imagekit.io/dxofqajmq/AlPlus%20Projects/NS%20House/720_tupNNDwFF.png?updatedAt=1707446970561"
+                                            alt="Project NS House Pondok Tjandra">
+                                    </a>
+                                    <div class="overlay">
+                                        <h5>NS House Pondok Tjandra</h5>
+                                        <i class="ot-flaticon-add"></i>
+                                    </div>
+                                </div>
+                                <div class="portfolio-info">
+                                    <div class="portfolio-info-inner">
+                                        <h5><a class="title-link" href="{{ route('project.NsHouse') }}">NS House Pondok Tjandra</a>
+                                        </h5>
+                                        <p class="portfolio-cates"><a href="#">House</a></p>
+                                    </div>
+                                    <a class="overlay" href="{{ route('project.NsHouse') }}"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div style="margin-top: -120px;"></div>
+    <section class="skill-1">
+        <div class="grid-lines grid-lines-vertical">
+            <span class="g-line-vertical line-left color-line-default"></span>
+            <span class="g-line-vertical line-center color-line-default"></span>
+            <span class="g-line-vertical line-right color-line-default"></span>
+        </div>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <h3>Testimonials</h3>
-                    {{-- <div class="space-20"></div> --}}
+                    <div class="space-20"></div>
                     <div class="ot-testimonials v-light">
                         <div class="testimonial-inner testi-col-3 owl-theme owl-carousel">
                             <div class="testi-item">
@@ -787,19 +856,19 @@
         </div>
     </section> --}}
 
-    <section class="cta">
+    <section class="cta"
+        style="background-image: url('{{ asset('assets/images/A/(A6)LAUR4-1.png') }}'); background-repeat: no-repeat; background-size: cover; padding: 70px 0 73px 0; color: #FFF;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mb-4 mb-lg-0">
-                    <h2 class="text-light mb-0">Get Incredible Interior Design Right Now!</h2>
+                    <h2 class="text-light mb-0">Get a quote, or consult your design for free.</h2>
                     <div class="space-5"></div>
-                    <p class=" mb-0">At every stage, we could supervise your project – controlling all the
-                        details and consulting the builders.</p>
+                    <p class="mb-0">Your dream home furnishings are just one click away.</p>
                 </div>
                 <div class="col-lg-4 text-left text-lg-right align-self-center">
                     <div class="ot-button">
-                        <a href="contact.html" class="octf-btn octf-btn-light border-hover-light">get in
-                            touch</a>
+                        <a href="{{ route('contact.index') }}" class="octf-btn octf-btn-light border-hover-light">(reach
+                            us here)</a>
                     </div>
                 </div>
             </div>
@@ -817,12 +886,12 @@
                 <div class="col-lg-8 col-md-12 mb-4 mb-lg-0">
                     <div class="ot-heading is-dots">
                         <span>[ our blog ]</span>
-                        <h2 class="main-heading">Read Our Latest News</h2>
+                        <h2 class="main-heading">Curated by AL+</h2>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12 text-lg-right align-self-center">
                     <div class="ot-button">
-                        <a href="blog.html" class="octf-btn octf-btn-dark border-hover-dark">View all</a>
+                        <a href="{{ route('blog.index') }}" class="octf-btn octf-btn-dark border-hover-dark">View all</a>
                     </div>
                 </div>
             </div>
@@ -831,7 +900,7 @@
                     <div class="post-box masonry-post post-item">
                         <div class="post-inner">
                             <div class="entry-media post-cat-abs">
-                                <a href="post.html"><img src="https://via.placeholder.com/570x484.png"
+                                <a href="{{ route('blog.detail') }}"><img src="https://via.placeholder.com/570x484.png"
                                         alt=""></a>
                                 <div class="post-cat">
                                     <div class="posted-in"><a href="#">Interior</a></div>
@@ -848,7 +917,8 @@
                                     </div><!-- .entry-meta -->
 
                                     <h5 class="entry-title">
-                                        <a class="title-link" href="post.html">Top 10 Tips for Your Kitchen
+                                        <a class="title-link" href="{{ route('blog.detail') }}">Top 10 Tips for Your
+                                            Kitchen
                                             Interior Design</a>
                                     </h5>
                                 </div><!-- .entry-header -->
@@ -864,7 +934,7 @@
                     <div class="post-box masonry-post post-item">
                         <div class="post-inner">
                             <div class="entry-media post-cat-abs">
-                                <a href="post.html"><img src="https://via.placeholder.com/570x484.png"
+                                <a href="{{ route('blog.detail') }}"><img src="https://via.placeholder.com/570x484.png"
                                         alt=""></a>
                                 <div class="post-cat">
                                     <div class="posted-in"><a href="#">Interior</a></div>
@@ -881,7 +951,8 @@
                                     </div><!-- .entry-meta -->
 
                                     <h5 class="entry-title">
-                                        <a class="title-link" href="post.html">The Golden Ratio Rules for
+                                        <a class="title-link" href="{{ route('blog.detail') }}">The Golden Ratio Rules
+                                            for
                                             Best 2D Sketch</a>
                                     </h5>
                                 </div><!-- .entry-header -->
@@ -897,7 +968,7 @@
                     <div class="post-box masonry-post post-item">
                         <div class="post-inner">
                             <div class="entry-media post-cat-abs">
-                                <a href="post.html"><img src="https://via.placeholder.com/570x484.png"
+                                <a href="{{ route('blog.detail') }}"><img src="https://via.placeholder.com/570x484.png"
                                         alt=""></a>
                                 <div class="post-cat">
                                     <div class="posted-in"><a href="#">Interior</a></div>
@@ -914,7 +985,8 @@
                                     </div><!-- .entry-meta -->
 
                                     <h5 class="entry-title">
-                                        <a class="title-link" href="post.html">Use Pastel Colors & Natural
+                                        <a class="title-link" href="{{ route('blog.detail') }}">Use Pastel Colors &
+                                            Natural
                                             Materials</a>
                                     </h5>
                                 </div><!-- .entry-header -->
