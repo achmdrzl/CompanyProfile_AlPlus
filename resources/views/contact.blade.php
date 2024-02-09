@@ -1,7 +1,8 @@
 @extends('layouts.main')
 
 @section('content')
-    <div class="page-header dtable text-center header-transparent page-header-contact" style="background-image: url('{{ asset('assets/images/E/(E1)APR-1.png') }}'); background-repeat: no-repeat; background-size: cover; color: #FFF;">
+    <div class="page-header dtable text-center header-transparent page-header-contact"
+        style="background-image: url('{{ asset('assets/images/E/(E1)APR-1.png') }}'); background-repeat: no-repeat; background-size: cover; color: #FFF;">
         <div class="dcell">
             <div class="container">
                 <h1 class="page-title">Get in touch</h1>
@@ -20,7 +21,8 @@
                 <div class="col-lg-6 align-self-center mb-5 mb-lg-0">
                     <div class="contact-left">
                         <h2>Where to find us</h2>
-                        <p class="font14">Let us know anytime you need help. Our doors are always open for you – or if you may, drop us a message and we’ll be more than happy to get back to you soon.</p>
+                        <p class="font14">Let us know anytime you need help. Our doors are always open for you – or if you
+                            may, drop us a message and we’ll be more than happy to get back to you soon.</p>
                         <form id="ajax-form" name="ajax-form" action="contact.php" method="post" class="wpcf7">
                             <div class="main-form">
                                 <p>
@@ -101,7 +103,7 @@
     <div class="contact-map">
         <div class="map">
             <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.5763139385285!2d112.72644438389855!3d-7.288950452848928!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fbf1da6bcdf5%3A0xe7a4b9d38dee37f3!2sMyCo%20Coworking%20Space%20and%20Cafe!5e0!3m2!1sid!2sid!4v1702825421275!5m2!1sid!2sid"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d416.00989003986547!2d112.74878156018111!3d-7.266385108398442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7f9629a74af19%3A0x399e84172b0c90c6!2sTrillium%20Office%20%26%20Residence%2C%20Jl.%20Pemuda%2C%20Embong%20Kaliasin%2C%20Kec.%20Genteng%2C%20Surabaya%2C%20Jawa%20Timur%2060271!5e0!3m2!1sid!2sid!4v1707460614724!5m2!1sid!2sid"
                 height="522" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </div>
     </div>
