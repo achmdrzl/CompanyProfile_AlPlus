@@ -1,18 +1,19 @@
 @extends('layouts.main')
 
 @section('content')
-    <div class="page-header dtable text-center header-transparent">
-        <div class="dcell">
-            <div class="container">
-                <h1 class="page-title">Blog Single</h1>
-                <ul id="breadcrumbs" class="breadcrumbs none-style">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="our-services.html">Blog</a></li>
-                    <li class="active">Blog Single</li>
-                </ul>
+    <div id="content" class="site-content">
+        <div class="page-header dtable text-center header-transparent" style="background-image: url('{{ asset('assets/images/D/(D1)ALP-1.png') }}'); background-repeat: no-repeat; background-size: cover; color: #FFF;">
+            <div class="dcell">
+                <div class="container">
+                    <h1 class="page-title">Blog Single</h1>
+                    <ul id="breadcrumbs" class="breadcrumbs none-style">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="our-services.html">Blog</a></li>
+                        <li class="active">Blog Single</li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </div>
     </div>
 
     <div class="entry-content">
@@ -23,7 +24,7 @@
                         <div class="entry-media post-cat-abs">
                             <img src="https://via.placeholder.com/790x510.png" alt="">
                             <div class="post-cat">
-                                <div class="posted-in"><a href="#">Interior</a></div>
+                                <div class="posted-in"><a href="#">Interiors</a></div>
                             </div>
                         </div>
                         <div class="inner-post">
