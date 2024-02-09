@@ -22,9 +22,6 @@
         content="Unlock premium interior design services and reliable contracting at AL+ in Surabaya. Our expertise extends to creating flexible event spaces at MyCo. Contact us for customized designs and seamless renovations.">
     <meta property="og:site_name" content="Design Interior Surabaya | AL +" />
 
-
-
-
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/images/favicon2.svg') }}" />
     <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}" />
     <link rel="stylesheet" href="{{ asset('assets/css/font-awesome.min.css') }}" />
