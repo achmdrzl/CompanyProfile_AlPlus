@@ -89,7 +89,8 @@
                             </figure>
                             <figure class="gallery-item">
                                 <div class="gallery-icon portrait">
-                                    <a href="https://ik.imagekit.io/dxofqajmq/AlPlus%20Projects/Mr.%20R%20House/(11759)RON_-XgHSKTYU.png?updatedAt=1707442794497">
+                                    <a
+                                        href="https://ik.imagekit.io/dxofqajmq/AlPlus%20Projects/Mr.%20R%20House/(11759)RON_-XgHSKTYU.png?updatedAt=1707442794497">
                                         <img src="https://ik.imagekit.io/dxofqajmq/AlPlus%20Projects/Mr.%20R%20House/(11759)RON_-XgHSKTYU.png?updatedAt=1707442794497"
                                             alt="">
                                         <span class="overlay"><i class="ot-flaticon-add"></i></span>
@@ -104,20 +105,16 @@
             <div class="row">
                 <div class="col-lg-12">
                     {{-- <p><span class="drop-cap"><span class="drop-cap-letter">C</span></span>onsidering the physical, mental, --}}
-                    <p> Considering the physical, mental,
-                        and emotional needs of people, interior designers use human-centered approaches to address how we
-                        live today. Creating novel approaches to promoting health, safety, and welfare, contemporary
-                        interiors are increasingly inspired by biophilia as a holistic approach to promoting health, safety,
-                        and welfare, contemporary interiors are increasingly inspired by biophilia as a holistic approach to
-                        design. By definition, interior design encompasses diverse aspects of our environment. The
-                        discipline extends to building materials and finishes; casework, furniture.</p>
-                    <p><strong>Biophilia is the idea that humans possess an innate tendency to seek connections with
+                    <p> Wanting to keep the design minimalistic yet homey, we integrated the overall look of the interior
+                        into the kitchen and pantry cabinets. Bright, beige tonal colors were used to make the space look
+                        bigger, and muted wooden textures were also added to keep things warm and cozy.</p>
+                    {{-- <p><strong>Biophilia is the idea that humans possess an innate tendency to seek connections with
                             nature.</strong> The term translates to ‘the love of living things’ in ancient Greek (philia =
                         the love of / inclination towards), and was used by German-born American psychoanalyst Erich Fromm
                         in The Anatomy of Human Destructiveness (1973), which described biophilia as “the passionate love of
                         life and of all that is alive.” The term was later used by American biologist Edward O. Wilson in
                         his work Biophilia (1984), which proposed that the tendency of humans to focus on and to affiliate
-                        with nature and other life-forvms.</p>
+                        with nature and other life-forvms.</p> --}}
                     <div class="space-20"></div>
                     <div class="space-5"></div>
                     <div class="share-portfolio">
