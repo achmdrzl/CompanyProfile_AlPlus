@@ -10,19 +10,19 @@
 
     <meta name="title" content="Design Interior Surabaya | AL +">
     <meta name="url" content="{{ route('index') }}">
-    <meta
-        content="desain interior surabaya, desain grafis surabaya, kontraktor surabaya, desain arsitektur surabaya, desain kamar surabaya, desain kamar anak surabaya, desain furnitur surabaya, desain galeri surabaya, desain dapur surabaya, desain ruang tamu surabaya, desain kantor surabaya, desain studio surabaya, desain kamar mandi surabaya"
-        name="description">
-    <meta
-        content="desain interior surabaya, desain grafis surabaya, kontraktor surabaya, desain arsitektur surabaya, desain kamar surabaya, desain kamar anak surabaya, desain furnitur surabaya, desain galeri surabaya, desain dapur surabaya, desain ruang tamu surabaya, desain kantor surabaya, desain studio surabaya, desain kamar mandi surabaya"
-        name="keywords">
+    <meta name="description"
+        content="Discover top-notch interior design, graphic solutions, and reliable contracting services in Surabaya. AL+ specializes in crafting bespoke spaces for homes, offices, and events. Contact us for personalized designs, including room, furniture, kitchen, and bathroom designs.">
+    <meta name="keywords"
+        content="interior design Surabaya, graphic design Surabaya, contractor Surabaya, architecture design Surabaya, room design Surabaya, children's room design Surabaya, furniture design Surabaya, gallery design Surabaya, kitchen design Surabaya, living room design Surabaya, office design Surabaya, studio design Surabaya, bathroom design Surabaya">
     <meta name="robots" content="index, follow">
 
     <meta property="og:title" content="Design Interior Surabaya | AL +">
     <meta property="og:url" content="{{ route('index') }}" />
     <meta property="og:description"
-        content="Punya rencana untuk mengadakan acara komunitas? Ruangan di MyCo fleksibel untuk dimodifikasi sesuai kebutuhan event Anda, yuk kunjungi MyCo dan MyCo X. renovasi atau modifikasi interior rumah anda, di AL+ akan merealisasikan hal itu sesuai permintaan anda, yuk hubungi kami segera">
-       <meta property="og:site_name" content="Design Interior Surabaya | AL +" />
+        content="Unlock premium interior design services and reliable contracting at AL+ in Surabaya. Our expertise extends to creating flexible event spaces at MyCo. Contact us for customized designs and seamless renovations.">
+    <meta property="og:site_name" content="Design Interior Surabaya | AL +" />
+
+
 
 
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/images/favicon2.svg') }}" />
