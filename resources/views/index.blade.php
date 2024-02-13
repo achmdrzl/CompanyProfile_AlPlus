@@ -1,5 +1,38 @@
 @extends('layouts.main')
 
+@push('style-alt')
+    <style>
+        .testi-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            position: relative;
+        }
+
+        .ttext {
+            position: relative;
+            max-width: 600px;
+            /* Adjust the max-width as needed */
+            margin: 0 auto;
+            /* Center the text within the container */
+            padding: 20px;
+            /* Add padding for better readability */
+        }
+
+        .t-head {
+            margin-top: 20px;
+            /* Add margin to separate text and the header */
+        }
+
+        /* Add the following styles to center the header */
+        .t-head .tinfo {
+            text-align: center;
+            margin: 0 auto;
+        }
+    </style>
+@endpush
+
 @section('content')
     @include('layouts.carousel-home')
 
@@ -494,7 +527,7 @@
                                     the natural materials & alive unprocessed."
                                 </div>
                                 <div class="t-head flex-middle">
-                                    <img src="https://via.placeholder.com/80x80.png" alt="">
+                                    {{-- <img src="https://via.placeholder.com/80x80.png" alt=""> --}}
                                     <div class="tinfo">
                                         <h6>Anna Paulina</h6>
                                         <span>Client of Company</span>
@@ -509,7 +542,7 @@
                                     the natural materials & alive unprocessed."
                                 </div>
                                 <div class="t-head flex-middle">
-                                    <img src="https://via.placeholder.com/80x80.png" alt="">
+                                    {{-- <img src="https://via.placeholder.com/80x80.png" alt=""> --}}
                                     <div class="tinfo">
                                         <h6>Pablo Gusterio</h6>
                                         <span>Client of Company</span>
@@ -524,7 +557,7 @@
                                     the natural materials & alive unprocessed."
                                 </div>
                                 <div class="t-head flex-middle">
-                                    <img src="https://via.placeholder.com/80x80.png" alt="">
+                                    {{-- <img src="https://via.placeholder.com/80x80.png" alt=""> --}}
                                     <div class="tinfo">
                                         <h6>Kristina Lee</h6>
                                         <span>Client of Company</span>
@@ -539,7 +572,7 @@
                                     the natural materials & alive unprocessed."
                                 </div>
                                 <div class="t-head flex-middle">
-                                    <img src="https://via.placeholder.com/80x80.png" alt="">
+                                    {{-- <img src="https://via.placeholder.com/80x80.png" alt=""> --}}
                                     <div class="tinfo">
                                         <h6>Anna Paulina</h6>
                                         <span>Client of Company</span>
@@ -554,7 +587,7 @@
                                     the natural materials & alive unprocessed."
                                 </div>
                                 <div class="t-head flex-middle">
-                                    <img src="https://via.placeholder.com/80x80.png" alt="">
+                                    {{-- <img src="https://via.placeholder.com/80x80.png" alt=""> --}}
                                     <div class="tinfo">
                                         <h6>Pablo Gusterio</h6>
                                         <span>Client of Company</span>
@@ -569,7 +602,7 @@
                                     the natural materials & alive unprocessed."
                                 </div>
                                 <div class="t-head flex-middle">
-                                    <img src="https://via.placeholder.com/80x80.png" alt="">
+                                    {{-- <img src="https://via.placeholder.com/80x80.png" alt=""> --}}
                                     <div class="tinfo">
                                         <h6>Kristina Lee</h6>
                                         <span>Client of Company</span>
@@ -901,7 +934,8 @@
                     <div class="post-box masonry-post post-item">
                         <div class="post-inner">
                             <div class="entry-media post-cat-abs">
-                                <a href="{{ route('blog.detail') }}"><img src="https://via.placeholder.com/570x484.png"
+                                <a href="{{ route('blog.a') }}"><img
+                                        src="https://ik.imagekit.io/dxofqajmq/AlPlus%20Projects/Blog/MTXX_MH20230628_164550828_o4lMFscsZ.jpg?updatedAt=1707783474175"
                                         alt=""></a>
                                 <div class="post-cat">
                                     <div class="posted-in"><a href="#">Interior</a></div>
@@ -910,22 +944,22 @@
                             <div class="inner-post">
                                 <div class="entry-header">
                                     <div class="entry-meta">
-                                        <span class="posted-on"><a href="#">March 19, 2020</a></span>
-                                        <span class="byline">
+                                        <span class="posted-on"><a href="#">February 13, 2024</a></span>
+                                        {{-- <span class="byline">
                                             <span class="author vcard"><a class="url fn n" href="#">Tom
                                                     Black</a></span>
-                                        </span>
+                                        </span> --}}
                                     </div><!-- .entry-meta -->
 
                                     <h5 class="entry-title">
-                                        <a class="title-link" href="{{ route('blog.detail') }}">Top 10 Tips for Your
-                                            Kitchen
-                                            Interior Design</a>
+                                        <a class="title-link" href="{{ route('blog.a') }}">Small Space 101</a>
                                     </h5>
                                 </div><!-- .entry-header -->
 
                                 <div class="the-excerpt">
-                                    A faceting effect livens up and...
+                                    Living in a small space doesn't mean sacrificing style and comfort. In fact, it presents
+                                    an exciting
+                                    challenge to unleash your creativity and transform your compact...
                                 </div><!-- .entry-content -->
                             </div>
                         </div>
@@ -935,7 +969,8 @@
                     <div class="post-box masonry-post post-item">
                         <div class="post-inner">
                             <div class="entry-media post-cat-abs">
-                                <a href="{{ route('blog.detail') }}"><img src="https://via.placeholder.com/570x484.png"
+                                <a href="{{ route('blog.b') }}"><img
+                                        src="https://ik.imagekit.io/dxofqajmq/AlPlus%20Projects/Blog/Rev%20VEN02211_gEsu7bv_M.png?updatedAt=1707784065295"
                                         alt=""></a>
                                 <div class="post-cat">
                                     <div class="posted-in"><a href="#">Interior</a></div>
@@ -944,22 +979,23 @@
                             <div class="inner-post">
                                 <div class="entry-header">
                                     <div class="entry-meta">
-                                        <span class="posted-on"><a href="#">March 19, 2020</a></span>
-                                        <span class="byline">
+                                        <span class="posted-on"><a href="#">February 13, 2024</a></span>
+                                        {{-- <span class="byline">
                                             <span class="author vcard"><a class="url fn n" href="#">Tom
                                                     Black</a></span>
-                                        </span>
+                                        </span> --}}
                                     </div><!-- .entry-meta -->
 
                                     <h5 class="entry-title">
-                                        <a class="title-link" href="{{ route('blog.detail') }}">The Golden Ratio Rules
-                                            for
-                                            Best 2D Sketch</a>
+                                        <a class="title-link" href="{{ route('blog.b') }}"
+                                            style="line-height: 1.3; display: block; margin-bottom: 10px;">Affordable
+                                            elegance: Bugdet
+                                            Makeovers with ready-made panels for interior remodeling</a>
                                     </h5>
                                 </div><!-- .entry-header -->
 
                                 <div class="the-excerpt">
-                                    A faceting effect livens up and...
+                                    Who says luxury has to come with a hefty. price tag?..
                                 </div><!-- .entry-content -->
                             </div>
                         </div>
@@ -969,8 +1005,11 @@
                     <div class="post-box masonry-post post-item">
                         <div class="post-inner">
                             <div class="entry-media post-cat-abs">
-                                <a href="{{ route('blog.detail') }}"><img src="https://via.placeholder.com/570x484.png"
+                                <a href="{{ route('blog.c') }}"><img
+                                        src="https://ik.imagekit.io/dxofqajmq/AlPlus%20Projects/Blog/MTXX_MH20230629_204418961_Ot7f-j0HH.png?updatedAt=1707784598874"
                                         alt=""></a>
+                                {{-- <a href="{{ route('blog.c') }}"><img src="https://via.placeholder.com/570x484.png"
+                                        alt=""></a> --}}
                                 <div class="post-cat">
                                     <div class="posted-in"><a href="#">Interior</a></div>
                                 </div>
@@ -978,22 +1017,22 @@
                             <div class="inner-post">
                                 <div class="entry-header">
                                     <div class="entry-meta">
-                                        <span class="posted-on"><a href="#">March 19, 2020</a></span>
-                                        <span class="byline">
+                                        <span class="posted-on"><a href="#">February 13, 2024</a></span>
+                                        {{-- <span class="byline">
                                             <span class="author vcard"><a class="url fn n" href="#">Tom
                                                     Black</a></span>
-                                        </span>
+                                        </span> --}}
                                     </div><!-- .entry-meta -->
 
                                     <h5 class="entry-title">
-                                        <a class="title-link" href="{{ route('blog.detail') }}">Use Pastel Colors &
-                                            Natural
-                                            Materials</a>
+                                        <a class="title-link" href="{{ route('blog.c') }}">The science of color
+                                            combination</a>
                                     </h5>
                                 </div><!-- .entry-header -->
 
                                 <div class="the-excerpt">
-                                    A faceting effect livens up and...
+                                    Color is not just a matter of personal preference; it's a science. Understanding the
+                                    principles of color science and how different ...
                                 </div><!-- .entry-content -->
                             </div>
                         </div>

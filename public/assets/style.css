@@ -4358,7 +4358,8 @@ object {
     width: 80px;
     height: 45px;
     z-index: 1;
-    background: url("https://via.placeholder.com/189x150.png") no-repeat center;
+    background: url("https://ik.imagekit.io/dxofqajmq/AlPlus%20Projects/Group%20279_s7uYoONRl.png?updatedAt=1707786957571")
+        no-repeat center;
 }
 .ot-testimonials .ot-testimonials-slider-s2 .testi-item {
     padding-right: 0;
@@ -6313,7 +6314,9 @@ object {
 ## Miscellaneous
 --------------------------------------------------------------*/
 .site-overlay {
-    cursor: url(https://ik.imagekit.io/dxofqajmq/AlPlus%20Projects/Group%20279_z8VEBR6sv.png?updatedAt=1707462046463) 16 16, default;
+    cursor: url(https://ik.imagekit.io/dxofqajmq/AlPlus%20Projects/Group%20279_z8VEBR6sv.png?updatedAt=1707462046463)
+            16 16,
+        default;
     background: transparent;
     width: 100vw;
     height: 100vh;
