@@ -7616,7 +7616,8 @@ section {
 .contact-right {
     padding-left: 75px;
     padding-right: 40px;
-    background-image: url("https://via.placeholder.com/510x680.png");
+    /* background-image: url("https://via.placeholder.com/510x680.png"); */
+    background-color: #1A1A1A;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
