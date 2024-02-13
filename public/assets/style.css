@@ -4414,9 +4414,9 @@ object {
 .ot-testimonials.v-dark .testi-item .ttext > span {
     background: #0a0a0a;
 }
-/* .ot-testimonials.v-dark .testi-item .ttext:before {
-    background: url("https://via.placeholder.com/189x150.png") no-repeat center;
-} */
+.ot-testimonials.v-dark .testi-item .ttext:before {
+    background: url("https://ik.imagekit.io/dxofqajmq/AlPlus%20Projects/Group%20279_s7uYoONRl.png?updatedAt=1707786957571") no-repeat center;
+}
 .ot-testimonials.v-dark .testi-item .ttext .layer-behind {
     background: #1a1a1a;
 }
@@ -7617,7 +7617,7 @@ section {
     padding-left: 75px;
     padding-right: 40px;
     /* background-image: url("https://via.placeholder.com/510x680.png"); */
-    background-color: #1A1A1A;
+    background-color: #1a1a1a;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -9067,6 +9067,17 @@ ol.style-default li:last-child {
 .ot-testimonials .ot-testimonials-slider-s2.s2 .testi-item .ttext {
     padding-right: 0;
     background-color: transparent;
+}
+.ot-testimonials .testi-item .ttext:before {
+    position: absolute;
+    top: -28px;
+    left: 28px;
+    content: "";
+    width: 80px;
+    height: 45px;
+    z-index: 1;
+    background: url("https://ik.imagekit.io/dxofqajmq/AlPlus%20Projects/Group%20279_s7uYoONRl.png?updatedAt=1707786957571")
+        no-repeat center;
 }
 .testimonials-slide-2.s2.owl-theme .owl-nav .owl-next,
 .testimonials-slide-2.s2.owl-theme .owl-nav .owl-prev {
