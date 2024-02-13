@@ -4350,16 +4350,6 @@ object {
     height: 1px;
     background: #fff;
 }
-/* .ot-testimonials .testi-item .ttext:before {
-    position: absolute;
-    top: -28px;
-    left: 28px;
-    content: "";
-    width: 80px;
-    height: 45px;
-    z-index: 1;
-    background: url("https://ik.imagekit.io/dxofqajmq/AlPlus%20Projects/Group%20279_s7uYoONRl.png?updatedAt=1707786957571") no-repeat center;
-} */
 .ot-testimonials .ot-testimonials-slider-s2 .testi-item {
     padding-right: 0;
     padding-bottom: 10px;

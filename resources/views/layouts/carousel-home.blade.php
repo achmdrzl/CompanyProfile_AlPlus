@@ -38,7 +38,7 @@
                     </div>
 
                     <div class="image-container">
-                        <img class="mobile-image" src="https://via.placeholder.com/1920x950.png"
+                        <img class="mobile-image" src="{{ asset('assets/images/index/MTXX_MH20230629_204259513 (1) 1.png') }}"
                             alt="Placeholder Image">
                     </div>
 
@@ -104,14 +104,14 @@
                 <!-- SLIDE 1 -->
                 <li data-index="rs-71" data-transition="fade" data-slotamount="default" data-hideafterloop="0"
                     data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300"
-                    data-thumb="https://via.placeholder.com/1920x950.png" data-rotate="0" data-saveperformance="off"
-                    data-title="" data-param1="1" data-param2="" data-param3="" data-param4="" data-param5=""
-                    data-param6="" data-param7="" data-param8="" data-param9="" data-param10=""
-                    data-description="">
+                    data-thumb="{{ asset('assets/images/index/Rev VEN02163 1.png') }}" data-rotate="0"
+                    data-saveperformance="off" data-title="" data-param1="1" data-param2="" data-param3=""
+                    data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9=""
+                    data-param10="" data-description="">
                     <!-- MAIN IMAGE -->
-                    <img src="https://via.placeholder.com/1920x950.png" data-bgcolor='#ffffff' style=''
-                        alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"
-                        class="rev-slidebg" data-bgparallax="off" data-no-retina>
+                    <img src="{{ asset('assets/images/index/Rev VEN02163 1.png') }}" data-bgcolor='#ffffff'
+                        style='' alt="" data-bgposition="center center" data-bgfit="cover"
+                        data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="off" data-no-retina>
 
 
                     <!-- LAYER 3  Thin text title-->
@@ -172,14 +172,15 @@
                 <!-- SLIDE 1 -->
                 <li data-index="rs-72" data-transition="fade" data-slotamount="default" data-hideafterloop="0"
                     data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300"
-                    data-thumb="https://via.placeholder.com/1920x950.png" data-rotate="0" data-saveperformance="off"
-                    data-title="" data-param1="1" data-param2="" data-param3="" data-param4="" data-param5=""
-                    data-param6="" data-param7="" data-param8="" data-param9="" data-param10=""
-                    data-description="">
+                    data-thumb="{{ asset('assets/images/index/VEN02484 1.png') }}"
+                    data-rotate="0" data-saveperformance="off" data-title="" data-param1="1" data-param2=""
+                    data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8=""
+                    data-param9="" data-param10="" data-description="">
                     <!-- MAIN IMAGE -->
-                    <img src="https://via.placeholder.com/1920x950.png" data-bgcolor='#ffffff' style=''
-                        alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"
-                        class="rev-slidebg" data-bgparallax="off" data-no-retina>
+                    <img src="{{ asset('assets/images/index/VEN02484 1.png') }}"
+                        data-bgcolor='#ffffff' style='' alt="" data-bgposition="center center"
+                        data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="off"
+                        data-no-retina>
 
 
                     <!-- LAYER 3  Thin text title-->

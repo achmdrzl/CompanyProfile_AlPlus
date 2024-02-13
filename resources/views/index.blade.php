@@ -157,11 +157,12 @@
                     <div class="cate-lines h-light">
                         <div class="cate-item">
                             <a href="#">
-                                <img src="https://via.placeholder.com/750x422.png" alt="">
+                                <img src="{{ asset('assets/images/index/Rev VEN02211.png') }}" alt="">
+                                {{-- <img src="https://via.placeholder.com/750x422.png" alt=""> --}}
                             </a>
                             <div class="cate-item_content">
                                 <a href="#">
-                                    <h2>Kitchen Solution<span class="number-stroke">01</span></h2>
+                                    <h2>Kitchen<br> Solution<span class="number-stroke">01</span></h2>
                                 </a>
                             </div>
                         </div>
@@ -171,25 +172,28 @@
                     <div class="cate-lines h-light">
                         <div class="cate-item">
                             <a href="#">
-                                <img src="https://via.placeholder.com/750x422.png" alt="">
+                                <img src="{{ asset('assets/images/index/MTXX_MH20230629_205105394 (1) 1.png') }}"
+                                    alt="">
                             </a>
                             <div class="cate-item_content">
                                 <a href="#">
-                                    <h2>Built-in Wardrobess<span class="number-stroke">02</span></h2>
+                                    <h2>Built-in<br> Wardrobes<span class="number-stroke">02</span></h2>
                                 </a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 px-0">
-                    <div class="cate-lines s-dark">
+                    {{-- <div class="cate-lines s-dark"> --}}
+                    <div class="cate-lines h-light">
                         <div class="cate-item">
                             <a href="#">
-                                <img src="https://via.placeholder.com/750x422.png" alt="">
+                                <img src="{{ asset('assets/images/index/MTXX_MH20230629_204702557 1.png') }}"
+                                    alt="">
                             </a>
                             <div class="cate-item_content">
                                 <a href="#">
-                                    <h2>Custom Furnitures<span class="number-stroke">03</span></h2>
+                                    <h2>Custom<br> Furnitures<span class="number-stroke">03</span></h2>
                                 </a>
                             </div>
                         </div>
@@ -522,7 +526,6 @@
                             <div class="testi-item">
                                 <div class="ttext">
                                     <div class="layer-behind"></div>
-                                    {{-- <span></span> --}}
                                     "You will never fake the feeling of being in such a place. The live minimalism base on
                                     the natural materials & alive unprocessed."
                                 </div>
@@ -537,7 +540,6 @@
                             <div class="testi-item">
                                 <div class="ttext">
                                     <div class="layer-behind"></div>
-                                    {{-- <span></span> --}}
                                     "You will never fake the feeling of being in such a place. The live minimalism base on
                                     the natural materials & alive unprocessed."
                                 </div>
@@ -552,7 +554,6 @@
                             <div class="testi-item">
                                 <div class="ttext">
                                     <div class="layer-behind"></div>
-                                    {{-- <span></span> --}}
                                     "You will never fake the feeling of being in such a place. The live minimalism base on
                                     the natural materials & alive unprocessed."
                                 </div>
@@ -567,7 +568,6 @@
                             <div class="testi-item">
                                 <div class="ttext">
                                     <div class="layer-behind"></div>
-                                    {{-- <span></span> --}}
                                     "You will never fake the feeling of being in such a place. The live minimalism base on
                                     the natural materials & alive unprocessed."
                                 </div>
@@ -582,7 +582,6 @@
                             <div class="testi-item">
                                 <div class="ttext">
                                     <div class="layer-behind"></div>
-                                    {{-- <span></span> --}}
                                     "You will never fake the feeling of being in such a place. The live minimalism base on
                                     the natural materials & alive unprocessed."
                                 </div>
@@ -597,7 +596,6 @@
                             <div class="testi-item">
                                 <div class="ttext">
                                     <div class="layer-behind"></div>
-                                    {{-- <span></span> --}}
                                     "You will never fake the feeling of being in such a place. The live minimalism base on
                                     the natural materials & alive unprocessed."
                                 </div>
