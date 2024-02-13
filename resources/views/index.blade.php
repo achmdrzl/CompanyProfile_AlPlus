@@ -522,7 +522,7 @@
                             <div class="testi-item">
                                 <div class="ttext">
                                     <div class="layer-behind"></div>
-                                    <span></span>
+                                    {{-- <span></span> --}}
                                     "You will never fake the feeling of being in such a place. The live minimalism base on
                                     the natural materials & alive unprocessed."
                                 </div>
@@ -537,7 +537,7 @@
                             <div class="testi-item">
                                 <div class="ttext">
                                     <div class="layer-behind"></div>
-                                    <span></span>
+                                    {{-- <span></span> --}}
                                     "You will never fake the feeling of being in such a place. The live minimalism base on
                                     the natural materials & alive unprocessed."
                                 </div>
@@ -552,7 +552,7 @@
                             <div class="testi-item">
                                 <div class="ttext">
                                     <div class="layer-behind"></div>
-                                    <span></span>
+                                    {{-- <span></span> --}}
                                     "You will never fake the feeling of being in such a place. The live minimalism base on
                                     the natural materials & alive unprocessed."
                                 </div>
@@ -567,7 +567,7 @@
                             <div class="testi-item">
                                 <div class="ttext">
                                     <div class="layer-behind"></div>
-                                    <span></span>
+                                    {{-- <span></span> --}}
                                     "You will never fake the feeling of being in such a place. The live minimalism base on
                                     the natural materials & alive unprocessed."
                                 </div>
@@ -582,7 +582,7 @@
                             <div class="testi-item">
                                 <div class="ttext">
                                     <div class="layer-behind"></div>
-                                    <span></span>
+                                    {{-- <span></span> --}}
                                     "You will never fake the feeling of being in such a place. The live minimalism base on
                                     the natural materials & alive unprocessed."
                                 </div>
@@ -597,7 +597,7 @@
                             <div class="testi-item">
                                 <div class="ttext">
                                     <div class="layer-behind"></div>
-                                    <span></span>
+                                    {{-- <span></span> --}}
                                     "You will never fake the feeling of being in such a place. The live minimalism base on
                                     the natural materials & alive unprocessed."
                                 </div>
