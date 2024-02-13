@@ -35,6 +35,9 @@ Route::get('/cekRelasi', function(){
 
 Route::get('/blog', FrontOfficeController::class . '@blog')->name('blog.index');
 Route::get('/blog-detail', FrontOfficeController::class . '@blogDetail')->name('blog.detail');
+Route::get('/small-space-101', FrontOfficeController::class. '@blog_a')->name('blog.a');
+Route::get('/Affordable-elegance:Bugdet-Makeovers-with-ready-made-panels-for-interior-remodeling', FrontOfficeController::class. '@blog_b')->name('blog.b');
+Route::get('/The-science-of-color-combination', FrontOfficeController::class. '@blog_c')->name('blog.c');
 
 Route::get('/contact', FrontOfficeController::class . '@contact')->name('contact.index');
 

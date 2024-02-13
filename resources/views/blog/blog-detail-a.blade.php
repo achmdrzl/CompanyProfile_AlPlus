@@ -1,16 +1,31 @@
 @extends('layouts.main')
 
+@push('style-alt')
+    <meta name="description"
+        content="Living in a small space doesn't mean sacrificing style and comfort. In fact, it presents an exciting challenge to unleash your creativity and transform your compact abode into a cozy sanctuary">
+
+    <meta name="robots" content="index, follow, max-image-preview:large">
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Small Space 101" />
+    <meta property="og:description"
+        content="Living in a small space doesn't mean sacrificing style and comfort. In fact, it presents an exciting challenge to unleash your creativity and transform your compact abode into a cozy sanctuary">
+
+    <meta property="article:published_time" content="2024-02-13T06:48:30+02:00">
+@endpush
+
+
 @section('content')
     <div id="content" class="site-content">
         <div class="page-header dtable text-center header-transparent"
             style="background-image: url('{{ asset('assets/images/D/(D1)ALP-1.png') }}'); background-repeat: no-repeat; background-size: cover; color: #FFF;">
             <div class="dcell">
                 <div class="container">
-                    <h1 class="page-title">Blog Single</h1>
+                    <h1 class="page-title">Small Space 101</h1>
                     <ul id="breadcrumbs" class="breadcrumbs none-style">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="our-services.html">Blog</a></li>
-                        <li class="active">Blog Single</li>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="{{ route('blog.index') }}">Blog</a></li>
+                        <li class="active">Small Space 101</li>
                     </ul>
                 </div>
             </div>
@@ -23,7 +38,8 @@
                 <div class="content-area col-lg-9 col-md-12 col-sm-12 col-xs-12">
                     <article class="blog-post post-box">
                         <div class="entry-media post-cat-abs">
-                            <img src="https://via.placeholder.com/790x510.png" alt="">
+                            <img src="https://ik.imagekit.io/dxofqajmq/AlPlus%20Projects/Blog/MTXX_MH20230628_164550828_LcXoxiMVP.png?updatedAt=1707783474423"
+                                alt="">
                             <div class="post-cat">
                                 <div class="posted-in"><a href="#">Interiors</a></div>
                             </div>
@@ -31,27 +47,82 @@
                         <div class="inner-post">
                             <header class="entry-header">
                                 <div class="entry-meta">
-                                    <span class="posted-on"><a href="#">November 19, 2020</a></span>
+                                    <span class="posted-on"><a href="#">February 13, 2024</a></span>
                                 </div>
-                                <h3 class="entry-title">Use Pastel Colors & Natural Materials</h3>
+                                <h3 class="entry-title">Small Space 101</h3>
                             </header>
                             <div class="entry-summary the-excerpt">
-                                <p> Afaceting effect
-                                    livens up and interrupts the cubism that sets the morphology of the West system apart
-                                    from the cliches of modern design. Characterised by its suitability for use in a wide
-                                    range of different contemporary and traditional arrangements, West also features glints
-                                    of pure creativity, such as the chaise-longue, in pentagonal or hexagonal form and the
-                                    elements that stand out for their striking backrests in saddle hide, ergonomically
-                                    shaped to rise and support the rear cushion. True elements of surprise, they break up
-                                    the compositional layout, creating a stylistic point of interest, and interrupting the
-                                    continuous effect of the fabric covering, visually lightening the volume at the rear. A
-                                    solution designed to optimise both look and form, created with the know-how about design
-                                    and the savoir-faire associated with fine tailoring that have <span>always distinguished
-                                        the Minotti brand</span>.</p>
-                                <p>Every element of the system is made with exquisite goose down padding to ensure maximum
-                                    comfort, features cushions finished with a piping that defines their profile and a
-                                    distinctive aluminium strip, slightly rounded at the edges which skims the floor, in a
-                                    brand new polished Brandy colour finish.</p>
+                                <p> Living in a small space doesn't mean sacrificing style and comfort. In fact, it presents
+                                    an exciting
+                                    challenge to unleash your creativity and transform your compact abode into a cozy
+                                    sanctuary. One of
+                                    the most effective ways to make your space appear larger is by strategically
+                                    incorporating patterns
+                                    and textures into your design scheme. In this blog post, we'll explore the
+                                    transformative power of
+                                    patterns and textures and how they can visually expand even the tiniest of rooms.</p>
+                                <ul>
+                                    <li>Understanding Patterns and Textures</li>
+                                    <p>Before diving into the specifics of pattern and texture integration, let's first
+                                        understand what they
+                                        entail. Patterns refer to repeated decorative designs, such as stripes, chevrons,
+                                        florals, or geometric
+                                        motifs, while textures encompass the tactile quality of surfaces, ranging from
+                                        smooth to rough,
+                                        matte to glossy. Both elements play a crucial role in interior design, adding depth,
+                                        visual interest, and
+                                        personality to a space.</p>
+                                    <li>Creating Depth with Patterns</li>
+                                    <p>
+                                        In a small room, incorporating patterns strategically can create the illusion of
+                                        depth and dimension.
+                                        Opt for vertical stripes to draw the eye upward and elongate the walls, making the
+                                        ceiling appear
+                                        higher. Alternatively, consider incorporating a statement wallpaper with a subtle
+                                        pattern to add
+                                        visual interest without overwhelming the space. Remember to keep the scale of the
+                                        patterns in
+                                        proportion to the size of the room to avoid overwhelming the space
+                                    </p>
+                                    <li>Expanding Space with Textures</li>
+                                    <p>Textures are equally important in making a small space feel larger. Introduce a
+                                        variety of
+                                        textures through textiles, such as plush rugs, cozy throws, and tactile upholstery.
+                                        Incorporating different textures not only adds visual appeal but also creates a
+                                        sense of
+                                        coziness and warmth. Experiment with materials like velvet, linen, and woven fabrics
+                                        to add
+                                        depth and richness to your space</p>
+                                    <li>Layering for Visual Interest</li>
+                                    <p>Layering patterns and textures is key to creating a dynamic and visually engaging
+                                        space.
+                                        Start with a neutral base and layer on different patterns and textures to add depth
+                                        and
+                                        dimension. Mix and match patterns of varying scales and textures to create contrast
+                                        and
+                                        visual intrigue. For example, pair a bold geometric rug with a textured throw
+                                        blanket and
+                                        patterned accent pillows for a cohesive yet dynamic look</p>
+                                    <li>Utilizing Mirrors and Light</li>
+                                    <p>In addition to patterns and textures, incorporating mirrors and maximizing natural
+                                        light can
+                                        further enhance the illusion of space. Hang a large mirror opposite a window to
+                                        reflect
+                                        natural light and create the illusion of depth. Mirrors not only brighten up a room
+                                        but also
+                                        visually expand the space by bouncing light around the room. Consider incorporating
+                                        reflective surfaces like glass and metallic finishes to further amplify the effect
+                                    </p>
+                                </ul>
+                                <p>Transforming a small space into a stylish and functional oasis is entirely achievable
+                                    with the
+                                    strategic integration of patterns and textures. By carefully selecting and layering
+                                    patterns,
+                                    textures, and materials, you can create a visually dynamic and inviting environment that
+                                    feels
+                                    larger than its square footage suggests. Embrace creativity, experiment with different
+                                    combinations, and watch as your compact abode is transformed into a spacious sanctuary.
+                                </p>
                                 {{-- <div id="gallery-2" class="gallery galleryid-82 gallery-columns-2 gallery-size-full">
                                     <figure class="gallery-item">
                                         <div class="gallery-icon landscape">
@@ -63,8 +134,8 @@
                                             <img src="https://via.placeholder.com/421x360.png" alt="">
                                         </div>
                                     </figure>
-                                </div>
-                                <h4>You Will Never Fake the Feeling of Being in Such a Place</h4>
+                                </div> --}}
+                                {{-- <h4>You Will Never Fake the Feeling of Being in Such a Place</h4>
                                 <p>West leaves plenty of room for interesting compositional possibilities: it enters a
                                     harmonious dialogue in terms of both colour and shape with the Amber coffee tables, is
                                     complemented by the Side coffee tables, with their frame in saddle hide that evokes that
@@ -86,11 +157,11 @@
                                         shape.</em></p> --}}
                             </div>
                             <div class="entry-footer clearfix">
-                                {{-- <div class="tagcloud">
+                                <div class="tagcloud">
                                     <a href="#" rel="tag">Exterior</a>
                                     <a href="#" rel="tag">Interior</a>
                                     <a href="#" rel="tag">Trends</a>
-                                </div> --}}
+                                </div>
                                 <div class="share-post">
                                     <a class="twit" target="_blank" href="twitter.com" title="Twitter"><i
                                             class="fab fa-twitter"></i></a>
@@ -102,25 +173,6 @@
                                             class="fab fa-linkedin-in"></i></a>
                                 </div>
                             </div>
-                            {{-- <div class="author-bio">
-                                <div class="author-image"><img src="https://via.placeholder.com/150x150.png" alt="Tom Black"
-                                        class="avatar"></div>
-                                <div class="author-info">
-                                    <h5>Tom Black</h5>
-                                    <p class="des">He is attended the State University of New York at Oswego where he
-                                        majored in English Literature and Creative Writing.</p>
-                                    <div class="author-socials">
-                                        <a href="twitter.com" target="_blank" title="Twitter" class="tooltip"><i
-                                                class="fab fa-twitter"></i> </a>
-                                        <a href="facebook.com" target="_blank" title="Facebook" class="tooltip"><i
-                                                class="fab fa-facebook-f"></i> </a>
-                                        <a href="linkedin.com" target="_blank" title="LinkedIn" class="tooltip"><i
-                                                class="fab fa-linkedin-in"></i> </a>
-                                        <a href="instagram.com" target="_blank" title="Instagram" class="tooltip"><i
-                                                class="fab fa-instagram"></i> </a>
-                                    </div>
-                                </div>
-                            </div> --}}
                             <div class="related-posts">
                                 <h3>Related Posts</h3>
                                 <div class="row">
@@ -128,7 +180,8 @@
                                         <div class="post-box post-item">
                                             <div class="post-inner">
                                                 <div class="entry-media post-cat-abs">
-                                                    <a href="post.html"><img src="https://via.placeholder.com/510x376.png"
+                                                    <a href="{{ route('blog.b') }}"><img
+                                                            src="https://ik.imagekit.io/dxofqajmq/AlPlus%20Projects/Blog/Rev%20VEN02211_gEsu7bv_M.png?updatedAt=1707784065295"
                                                             alt=""></a>
                                                     <div class="post-cat">
                                                         <div class="posted-in"><a href="#">Interior</a></div>
@@ -137,22 +190,24 @@
                                                 <div class="inner-post">
                                                     <div class="entry-header">
                                                         <div class="entry-meta">
-                                                            <span class="posted-on"><a href="#">March 19,
-                                                                    2020</a></span>
+                                                            <span class="posted-on"><a href="#">February 13,
+                                                                    2024</a></span>
                                                             {{-- <span class="byline">
-                                                                <span class="author vcard"><a class="url fn n"
-                                                                        href="#">Tom Black</a></span>
-                                                            </span> --}}
+                                            <span class="author vcard"><a class="url fn n" href="#">Tom
+                                                    Black</a></span>
+                                        </span> --}}
                                                         </div><!-- .entry-meta -->
 
                                                         <h5 class="entry-title">
-                                                            <a class="title-link" href="post.html">Top 10 Tips for Your
-                                                                Kitchen Interior Design</a>
+                                                            <a class="title-link" href="{{ route('blog.b') }}"
+                                                                style="line-height: 1.3; display: block; margin-bottom: 10px;">Affordable
+                                                                elegance: Bugdet
+                                                                Makeovers with ready-made panels for interior remodeling</a>
                                                         </h5>
                                                     </div><!-- .entry-header -->
 
                                                     <div class="the-excerpt">
-                                                        We are constantly growing, learning, planning...
+                                                        Who says luxury has to come with a hefty. price tag?..
                                                     </div><!-- .entry-content -->
                                                 </div>
                                             </div>
@@ -162,7 +217,8 @@
                                         <div class="post-box post-item">
                                             <div class="post-inner">
                                                 <div class="entry-media post-cat-abs">
-                                                    <a href="post.html"><img src="https://via.placeholder.com/510x376.png"
+                                                    <a href="{{ route('blog.c') }}"><img
+                                                            src="https://ik.imagekit.io/dxofqajmq/AlPlus%20Projects/Blog/MTXX_MH20230629_204418961_Ot7f-j0HH.png?updatedAt=1707784598874"
                                                             alt=""></a>
                                                     <div class="post-cat">
                                                         <div class="posted-in"><a href="#">Interior</a></div>
@@ -171,22 +227,23 @@
                                                 <div class="inner-post">
                                                     <div class="entry-header">
                                                         <div class="entry-meta">
-                                                            <span class="posted-on"><a href="#">March 19,
-                                                                    2020</a></span>
-                                                            {{-- <span class="byline">
-                                                                <span class="author vcard"><a class="url fn n"
-                                                                        href="#">Tom Black</a></span>
-                                                            </span> --}}
+                                                            <span class="posted-on"><a href="#">February 13,
+                                                                    2024</a></span>
                                                         </div><!-- .entry-meta -->
 
                                                         <h5 class="entry-title">
-                                                            <a class="title-link" href="post.html">The Golden Ratio Rules
-                                                                for Best 2D Sketch</a>
+                                                            <a class="title-link" href="{{ route('blog.c') }}">The science
+                                                                of color
+                                                                combination</a>
                                                         </h5>
                                                     </div><!-- .entry-header -->
 
                                                     <div class="the-excerpt">
-                                                        We are constantly growing, learning, planning...
+                                                        Color is not just a matter of personal preference; it's a science.
+                                                        Understanding the principles
+                                                        of color science and how different hues interact with each other can
+                                                        empower you to create
+                                                        stunning interior...
                                                     </div><!-- .entry-content -->
                                                 </div>
                                             </div>
@@ -212,27 +269,30 @@
                         <ul class="recent-news clearfix">
                             <li class="clearfix">
                                 <div class="thumb">
-                                    <a href="post.html"><img src="https://via.placeholder.com/150x150.png"
+                                    <a href="{{ route('blog.b') }}"><img
+                                            src="https://ik.imagekit.io/dxofqajmq/AlPlus%20Projects/Blog/Rev%20VEN02211_gEsu7bv_M.png?updatedAt=1707784065295"
                                             alt=""></a>
                                 </div>
                                 <div class="entry-header">
-                                    <h6><a href="post.html">Plan Your Project with Your Software</a></h6>
-                                    <span class="post-on"><span class="entry-date">November 21, 2019</span></span>
+                                    <h6><a href="{{ route('blog.b') }}">Affordable
+                                            elegance: Bugdet..remodeling</a></h6>
+                                    <span class="post-on"><span class="entry-date">13 February, 2024</span></span>
                                 </div>
                             </li>
 
                             <li class="clearfix">
                                 <div class="thumb">
-                                    <a href="post.html"><img src="https://via.placeholder.com/150x150.png"
+                                    <a href="{{ route('blog.c') }}"><img
+                                            src="https://ik.imagekit.io/dxofqajmq/AlPlus%20Projects/Blog/MTXX_MH20230629_204418961_Ot7f-j0HH.png?updatedAt=1707784598874"
                                             alt=""></a>
                                 </div>
                                 <div class="entry-header">
-                                    <h6><a href="post.html">You have a Great Business Idea?</a></h6>
-                                    <span class="post-on"><span class="entry-date">November 21, 2019</span></span>
+                                    <h6><a href="{{ route('blog.c') }}">The science of color combination</a></h6>
+                                    <span class="post-on"><span class="entry-date">13 February, 2024</span></span>
                                 </div>
                             </li>
 
-                            <li class="clearfix">
+                            {{-- <li class="clearfix">
                                 <div class="thumb">
                                     <a href="post.html"><img src="https://via.placeholder.com/150x150.png"
                                             alt=""></a>
@@ -241,7 +301,7 @@
                                     <h6><a href="post.html">Building Data Analytics Software</a></h6>
                                     <span class="post-on"><span class="entry-date">September 24, 2019</span></span>
                                 </div>
-                            </li>
+                            </li> --}}
                         </ul>
                     </aside>
                     {{-- <aside class="widget widget_tag_cloud">

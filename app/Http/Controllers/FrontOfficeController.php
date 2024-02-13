@@ -69,7 +69,7 @@ class FrontOfficeController extends Controller
     {
         return view('projects.project-ns-house');
     }
-    
+
 
     public function blog()
     {
@@ -79,6 +79,19 @@ class FrontOfficeController extends Controller
     public function blogDetail()
     {
         return view('blog.blog-detail');
+    }
+
+    public function blog_a()
+    {
+        return view('blog.blog-detail-a');
+    }
+    public function blog_b()
+    {
+        return view('blog.blog-detail-b');
+    }
+    public function blog_c()
+    {
+        return view('blog.blog-detail-c');
     }
 
     public function contact()

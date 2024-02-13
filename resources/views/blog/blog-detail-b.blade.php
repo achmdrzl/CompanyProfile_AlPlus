@@ -1,16 +1,33 @@
 @extends('layouts.main')
 
+@push('style-alt')
+    <meta name="description"
+        content="Who says luxury has to come with a hefty price tag? With the advent of ready-made panels such as wallpaper and PVC, transforming your interior space into a stylish haven has never been more affordable.">
+
+    <meta name="robots" content="index, follow, max-image-preview:large">
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title"
+        content="Affordable Elegance: Budget Makeovers with Ready-Made Panels for Interior Remodeling" />
+    <meta property="og:description"
+        content="Who says luxury has to come with a hefty price tag? With the advent of ready-made panels such as wallpaper and PVC, transforming your interior space into a stylish haven has never been more affordable.">
+
+    <meta property="article:published_time" content="2024-02-13T06:48:30+02:00">
+@endpush
+
 @section('content')
     <div id="content" class="site-content">
         <div class="page-header dtable text-center header-transparent"
             style="background-image: url('{{ asset('assets/images/D/(D1)ALP-1.png') }}'); background-repeat: no-repeat; background-size: cover; color: #FFF;">
             <div class="dcell">
                 <div class="container">
-                    <h1 class="page-title">Blog Single</h1>
+                    <h1 class="page-title">Affordable
+                        elegance</h1>
                     <ul id="breadcrumbs" class="breadcrumbs none-style">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="our-services.html">Blog</a></li>
-                        <li class="active">Blog Single</li>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="{{ route('blog.index') }}">Blog</a></li>
+                        <li class="active">Affordable
+                            elegance</li>
                     </ul>
                 </div>
             </div>
@@ -23,7 +40,8 @@
                 <div class="content-area col-lg-9 col-md-12 col-sm-12 col-xs-12">
                     <article class="blog-post post-box">
                         <div class="entry-media post-cat-abs">
-                            <img src="https://via.placeholder.com/790x510.png" alt="">
+                            <img src="https://ik.imagekit.io/dxofqajmq/AlPlus%20Projects/Blog/Rev%20VEN02211%20(2)_rE4dQzluP.png?updatedAt=1707783755345"
+                                alt="">
                             <div class="post-cat">
                                 <div class="posted-in"><a href="#">Interiors</a></div>
                             </div>
@@ -31,27 +49,70 @@
                         <div class="inner-post">
                             <header class="entry-header">
                                 <div class="entry-meta">
-                                    <span class="posted-on"><a href="#">November 19, 2020</a></span>
+                                    <span class="posted-on"><a href="#">February 13, 2024</a></span>
                                 </div>
-                                <h3 class="entry-title">Use Pastel Colors & Natural Materials</h3>
+                                <h3 class="entry-title">Affordable
+                                    elegance: Bugdet
+                                    Makeovers with ready-made panels for interior remodeling</h3>
                             </header>
                             <div class="entry-summary the-excerpt">
-                                <p> Afaceting effect
-                                    livens up and interrupts the cubism that sets the morphology of the West system apart
-                                    from the cliches of modern design. Characterised by its suitability for use in a wide
-                                    range of different contemporary and traditional arrangements, West also features glints
-                                    of pure creativity, such as the chaise-longue, in pentagonal or hexagonal form and the
-                                    elements that stand out for their striking backrests in saddle hide, ergonomically
-                                    shaped to rise and support the rear cushion. True elements of surprise, they break up
-                                    the compositional layout, creating a stylistic point of interest, and interrupting the
-                                    continuous effect of the fabric covering, visually lightening the volume at the rear. A
-                                    solution designed to optimise both look and form, created with the know-how about design
-                                    and the savoir-faire associated with fine tailoring that have <span>always distinguished
-                                        the Minotti brand</span>.</p>
-                                <p>Every element of the system is made with exquisite goose down padding to ensure maximum
-                                    comfort, features cushions finished with a piping that defines their profile and a
-                                    distinctive aluminium strip, slightly rounded at the edges which skims the floor, in a
-                                    brand new polished Brandy colour finish.</p>
+                                <p> Who says luxury has to come with a hefty price tag? With the advent of ready-made panels
+                                    such as wallpaper and PVC, transforming your interior space into a stylish haven has
+                                    never
+                                    been more affordable. In this blog post, we'll explore the myriad ways you can use these
+                                    budget-friendly materials to remodel your home, adding charm, elegance, and personality
+                                    without breaking the bank.</p>
+                                <ul>
+                                    <li>PVC Panache</li>
+                                    <p>PVC panels offer a durable and affordable alternative to traditional materials like
+                                        wood, tile,
+                                        and stone. These lightweight panels are easy to install and require minimal
+                                        maintenance,
+                                        making them ideal for DIY enthusiasts looking to refresh their interiors on a
+                                        budget. From
+                                        faux wood beams to decorative ceiling tiles, PVC panels come in a variety of styles
+                                        and
+                                        finishes to suit any design aesthetic, allowing you to achieve the look of luxury
+                                        without the
+                                        hefty price tag .
+                                    </p>
+                                    <li>Budget-Friendly Benefits</li>
+                                    <p>Beyond their aesthetic appeal, ready-made panels offer a host of practical benefits
+                                        that make
+                                        them an attractive option for budget-conscious homeowners. In addition to being
+                                        affordable, these materials are easy to install, allowing you to tackle DIY projects
+                                        with
+                                        confidence and save on labor costs. Furthermore, their low maintenance nature means
+                                        you
+                                        can enjoy a beautiful interior without the hassle of frequent upkeep, making them a
+                                        smart
+                                        investment for long-term home improvement
+                                    </p>
+                                    <li>Sustainable Solutions </li>
+                                    <p>In addition to their affordability and versatility, ready-made panels offer
+                                        eco-friendly benefits
+                                        that make them a sustainable choice for interior remodeling. Many wallpaper and PVC
+                                        manufacturers prioritize sustainable practices and materials, ensuring that you can
+                                        beautify
+                                        your home with peace of mind knowing that you're making environmentally conscious
+                                        choices. By opting for eco-friendly materials, you can reduce your carbon footprint
+                                        and
+                                        create a healthier, more sustainable living environment for you and your family</p>
+                                </ul>
+                                <div class="entry-media post-cat-abs">
+                                    <img src="https://ik.imagekit.io/dxofqajmq/AlPlus%20Projects/Blog/Rev%20VEN02211%20(1)_Y5iJUhtHS.png?updatedAt=1707783755364"
+                                        alt="">
+                                </div>
+                                <p>Ready-made panels like wallpaper and PVC offer an affordable and stylish solution for
+                                    interior remodeling projects of any size. Whether you're looking to refresh a single
+                                    room or
+                                    give your entire home a makeover, these budget-friendly materials allow you to achieve
+                                    the
+                                    look of luxury without breaking the bank. With their versatility, ease of installation,
+                                    and
+                                    sustainable benefits, ready-made panels are a smart choice for homeowners seeking to
+                                    elevate their interiors without compromising on quality or style.
+                                </p>
                                 {{-- <div id="gallery-2" class="gallery galleryid-82 gallery-columns-2 gallery-size-full">
                                     <figure class="gallery-item">
                                         <div class="gallery-icon landscape">
@@ -63,8 +124,8 @@
                                             <img src="https://via.placeholder.com/421x360.png" alt="">
                                         </div>
                                     </figure>
-                                </div>
-                                <h4>You Will Never Fake the Feeling of Being in Such a Place</h4>
+                                </div> --}}
+                                {{-- <h4>You Will Never Fake the Feeling of Being in Such a Place</h4>
                                 <p>West leaves plenty of room for interesting compositional possibilities: it enters a
                                     harmonious dialogue in terms of both colour and shape with the Amber coffee tables, is
                                     complemented by the Side coffee tables, with their frame in saddle hide that evokes that
@@ -86,11 +147,11 @@
                                         shape.</em></p> --}}
                             </div>
                             <div class="entry-footer clearfix">
-                                {{-- <div class="tagcloud">
+                                <div class="tagcloud">
                                     <a href="#" rel="tag">Exterior</a>
                                     <a href="#" rel="tag">Interior</a>
                                     <a href="#" rel="tag">Trends</a>
-                                </div> --}}
+                                </div>
                                 <div class="share-post">
                                     <a class="twit" target="_blank" href="twitter.com" title="Twitter"><i
                                             class="fab fa-twitter"></i></a>
@@ -102,25 +163,6 @@
                                             class="fab fa-linkedin-in"></i></a>
                                 </div>
                             </div>
-                            {{-- <div class="author-bio">
-                                <div class="author-image"><img src="https://via.placeholder.com/150x150.png" alt="Tom Black"
-                                        class="avatar"></div>
-                                <div class="author-info">
-                                    <h5>Tom Black</h5>
-                                    <p class="des">He is attended the State University of New York at Oswego where he
-                                        majored in English Literature and Creative Writing.</p>
-                                    <div class="author-socials">
-                                        <a href="twitter.com" target="_blank" title="Twitter" class="tooltip"><i
-                                                class="fab fa-twitter"></i> </a>
-                                        <a href="facebook.com" target="_blank" title="Facebook" class="tooltip"><i
-                                                class="fab fa-facebook-f"></i> </a>
-                                        <a href="linkedin.com" target="_blank" title="LinkedIn" class="tooltip"><i
-                                                class="fab fa-linkedin-in"></i> </a>
-                                        <a href="instagram.com" target="_blank" title="Instagram" class="tooltip"><i
-                                                class="fab fa-instagram"></i> </a>
-                                    </div>
-                                </div>
-                            </div> --}}
                             <div class="related-posts">
                                 <h3>Related Posts</h3>
                                 <div class="row">
@@ -128,7 +170,8 @@
                                         <div class="post-box post-item">
                                             <div class="post-inner">
                                                 <div class="entry-media post-cat-abs">
-                                                    <a href="post.html"><img src="https://via.placeholder.com/510x376.png"
+                                                    <a href="{{ route('blog.a') }}"><img
+                                                            src="https://ik.imagekit.io/dxofqajmq/AlPlus%20Projects/Blog/MTXX_MH20230628_164550828_o4lMFscsZ.jpg?updatedAt=1707783474175"
                                                             alt=""></a>
                                                     <div class="post-cat">
                                                         <div class="posted-in"><a href="#">Interior</a></div>
@@ -137,22 +180,21 @@
                                                 <div class="inner-post">
                                                     <div class="entry-header">
                                                         <div class="entry-meta">
-                                                            <span class="posted-on"><a href="#">March 19,
-                                                                    2020</a></span>
-                                                            {{-- <span class="byline">
-                                                                <span class="author vcard"><a class="url fn n"
-                                                                        href="#">Tom Black</a></span>
-                                                            </span> --}}
+                                                            <span class="posted-on"><a href="#">February 13,
+                                                                    2024</a></span>
                                                         </div><!-- .entry-meta -->
 
                                                         <h5 class="entry-title">
-                                                            <a class="title-link" href="post.html">Top 10 Tips for Your
-                                                                Kitchen Interior Design</a>
+                                                            <a class="title-link" href="{{ route('blog.a') }}">Small Space
+                                                                101</a>
                                                         </h5>
                                                     </div><!-- .entry-header -->
 
                                                     <div class="the-excerpt">
-                                                        We are constantly growing, learning, planning...
+                                                        Living in a small space doesn't mean sacrificing style and comfort.
+                                                        In fact, it presents
+                                                        an exciting
+                                                        challenge to unleash your creativity and transform your compact...
                                                     </div><!-- .entry-content -->
                                                 </div>
                                             </div>
@@ -162,7 +204,8 @@
                                         <div class="post-box post-item">
                                             <div class="post-inner">
                                                 <div class="entry-media post-cat-abs">
-                                                    <a href="post.html"><img src="https://via.placeholder.com/510x376.png"
+                                                    <a href="{{ route('blog.c') }}"><img
+                                                            src="https://ik.imagekit.io/dxofqajmq/AlPlus%20Projects/Blog/MTXX_MH20230629_204418961_Ot7f-j0HH.png?updatedAt=1707784598874"
                                                             alt=""></a>
                                                     <div class="post-cat">
                                                         <div class="posted-in"><a href="#">Interior</a></div>
@@ -171,22 +214,23 @@
                                                 <div class="inner-post">
                                                     <div class="entry-header">
                                                         <div class="entry-meta">
-                                                            <span class="posted-on"><a href="#">March 19,
-                                                                    2020</a></span>
-                                                            {{-- <span class="byline">
-                                                                <span class="author vcard"><a class="url fn n"
-                                                                        href="#">Tom Black</a></span>
-                                                            </span> --}}
+                                                            <span class="posted-on"><a href="#">February 13,
+                                                                    2024</a></span>
                                                         </div><!-- .entry-meta -->
 
                                                         <h5 class="entry-title">
-                                                            <a class="title-link" href="post.html">The Golden Ratio Rules
-                                                                for Best 2D Sketch</a>
+                                                            <a class="title-link" href="{{ route('blog.c') }}">The science
+                                                                of color
+                                                                combination</a>
                                                         </h5>
                                                     </div><!-- .entry-header -->
 
                                                     <div class="the-excerpt">
-                                                        We are constantly growing, learning, planning...
+                                                        Color is not just a matter of personal preference; it's a science.
+                                                        Understanding the principles
+                                                        of color science and how different hues interact with each other can
+                                                        empower you to create
+                                                        stunning interior...
                                                     </div><!-- .entry-content -->
                                                 </div>
                                             </div>
@@ -212,34 +256,25 @@
                         <ul class="recent-news clearfix">
                             <li class="clearfix">
                                 <div class="thumb">
-                                    <a href="post.html"><img src="https://via.placeholder.com/150x150.png"
+                                    <a href="{{ route('blog.a') }}"><img
+                                            src="https://ik.imagekit.io/dxofqajmq/AlPlus%20Projects/Blog/MTXX_MH20230628_164550828_o4lMFscsZ.jpg?updatedAt=1707783474175"
                                             alt=""></a>
                                 </div>
                                 <div class="entry-header">
-                                    <h6><a href="post.html">Plan Your Project with Your Software</a></h6>
-                                    <span class="post-on"><span class="entry-date">November 21, 2019</span></span>
+                                    <h6><a href="{{ route('blog.a') }}">Small Space 101</a></h6>
+                                    <span class="post-on"><span class="entry-date">13 February, 2024</span></span>
                                 </div>
                             </li>
 
                             <li class="clearfix">
                                 <div class="thumb">
-                                    <a href="post.html"><img src="https://via.placeholder.com/150x150.png"
+                                    <a href="{{ route('blog.c') }}"><img
+                                            src="https://ik.imagekit.io/dxofqajmq/AlPlus%20Projects/Blog/MTXX_MH20230629_204418961_Ot7f-j0HH.png?updatedAt=1707784598874"
                                             alt=""></a>
                                 </div>
                                 <div class="entry-header">
-                                    <h6><a href="post.html">You have a Great Business Idea?</a></h6>
-                                    <span class="post-on"><span class="entry-date">November 21, 2019</span></span>
-                                </div>
-                            </li>
-
-                            <li class="clearfix">
-                                <div class="thumb">
-                                    <a href="post.html"><img src="https://via.placeholder.com/150x150.png"
-                                            alt=""></a>
-                                </div>
-                                <div class="entry-header">
-                                    <h6><a href="post.html">Building Data Analytics Software</a></h6>
-                                    <span class="post-on"><span class="entry-date">September 24, 2019</span></span>
+                                    <h6><a href="{{ route('blog.c') }}">The science of color combination</a></h6>
+                                    <span class="post-on"><span class="entry-date">13 February, 2024</span></span>
                                 </div>
                             </li>
                         </ul>
