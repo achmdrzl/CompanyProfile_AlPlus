@@ -4414,9 +4414,9 @@ object {
 .ot-testimonials.v-dark .testi-item .ttext > span {
     background: #0a0a0a;
 }
-.ot-testimonials.v-dark .testi-item .ttext:before {
+/* .ot-testimonials.v-dark .testi-item .ttext:before {
     background: url("https://via.placeholder.com/189x150.png") no-repeat center;
-}
+} */
 .ot-testimonials.v-dark .testi-item .ttext .layer-behind {
     background: #1a1a1a;
 }
