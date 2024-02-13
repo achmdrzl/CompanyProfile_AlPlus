@@ -526,10 +526,12 @@
                             <div class="testi-item">
                                 <div class="ttext">
                                     <div class="layer-behind"></div>
+                                    <span></span>
                                     "You will never fake the feeling of being in such a place. The live minimalism base on
                                     the natural materials & alive unprocessed."
                                 </div>
                                 <div class="t-head flex-middle">
+                                    <img src="https://via.placeholder.com/80x80.png" alt="">
                                     <div class="tinfo">
                                         <h6>Anna Paulina</h6>
                                         <span>Client of Company</span>
@@ -539,10 +541,12 @@
                             <div class="testi-item">
                                 <div class="ttext">
                                     <div class="layer-behind"></div>
+                                    <span></span>
                                     "You will never fake the feeling of being in such a place. The live minimalism base on
                                     the natural materials & alive unprocessed."
                                 </div>
                                 <div class="t-head flex-middle">
+                                    <img src="https://via.placeholder.com/80x80.png" alt="">
                                     <div class="tinfo">
                                         <h6>Pablo Gusterio</h6>
                                         <span>Client of Company</span>
@@ -552,10 +556,12 @@
                             <div class="testi-item">
                                 <div class="ttext">
                                     <div class="layer-behind"></div>
+                                    <span></span>
                                     "You will never fake the feeling of being in such a place. The live minimalism base on
                                     the natural materials & alive unprocessed."
                                 </div>
                                 <div class="t-head flex-middle">
+                                    <img src="https://via.placeholder.com/80x80.png" alt="">
                                     <div class="tinfo">
                                         <h6>Kristina Lee</h6>
                                         <span>Client of Company</span>
@@ -565,19 +571,53 @@
                             <div class="testi-item">
                                 <div class="ttext">
                                     <div class="layer-behind"></div>
+                                    <span></span>
                                     "You will never fake the feeling of being in such a place. The live minimalism base on
                                     the natural materials & alive unprocessed."
                                 </div>
-                                <div class="tinfo">
-                                    <h6>Anna Paulina</h6>
-                                    <span>Client of Company</span>
+                                <div class="t-head flex-middle">
+                                    <img src="https://via.placeholder.com/80x80.png" alt="">
+                                    <div class="tinfo">
+                                        <h6>Anna Paulina</h6>
+                                        <span>Client of Company</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testi-item">
+                                <div class="ttext">
+                                    <div class="layer-behind"></div>
+                                    <span></span>
+                                    "You will never fake the feeling of being in such a place. The live minimalism base on
+                                    the natural materials & alive unprocessed."
+                                </div>
+                                <div class="t-head flex-middle">
+                                    <img src="https://via.placeholder.com/80x80.png" alt="">
+                                    <div class="tinfo">
+                                        <h6>Pablo Gusterio</h6>
+                                        <span>Client of Company</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testi-item">
+                                <div class="ttext">
+                                    <div class="layer-behind"></div>
+                                    <span></span>
+                                    "You will never fake the feeling of being in such a place. The live minimalism base on
+                                    the natural materials & alive unprocessed."
+                                </div>
+                                <div class="t-head flex-middle">
+                                    <img src="https://via.placeholder.com/80x80.png" alt="">
+                                    <div class="tinfo">
+                                        <h6>Kristina Lee</h6>
+                                        <span>Client of Company</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <div class="space-40"></div>
+                    <div class="space-2"></div>
                 </div>
-                {{-- <div class="space-40"></div> --}}
-                {{-- <div class="space-2"></div> --}}
             </div>
         </div>
         </div>
