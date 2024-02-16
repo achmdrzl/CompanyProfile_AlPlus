@@ -527,85 +527,39 @@
                             <div class="testi-item">
                                 <div class="ttext">
                                     <div class="layer-behind"></div>
-                                    <span></span>
-                                    "You will never fake the feeling of being in such a place. The live minimalism base on
-                                    the natural materials & alive unprocessed."
+                                    "Thankyou so much to Ms. Jessica and AL+ team for making my compact kitchen compact and
+                                    elegant. I highly recommend AL+ for those who want a termite free solution!."
                                 </div>
                                 <div class="t-head flex-middle">
                                     {{-- <img src="https://via.placeholder.com/80x80.png" alt=""> --}}
                                     <div class="tinfo">
-                                        <h6>Anna Paulina</h6>
-                                        <span>Client of Company</span>
+                                        <h6>Mr. K</h6>
+                                        <span>NS House</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="testi-item">
                                 <div class="ttext">
                                     <div class="layer-behind"></div>
-                                    <span></span>
-                                    "You will never fake the feeling of being in such a place. The live minimalism base on
-                                    the natural materials & alive unprocessed."
+                                    "I'm amazed at the cleanliness. From the design phase to the construction, I found everything I required in one place. Thank you so much, AL+, for providing a comprehensive solution"
                                 </div>
                                 <div class="t-head flex-middle">
                                     <div class="tinfo">
-                                        <h6>Pablo Gusterio</h6>
-                                        <span>Client of Company</span>
+                                        <h6>Mrs. N</h6>
+                                        <span>NG House</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="testi-item">
                                 <div class="ttext">
                                     <div class="layer-behind"></div>
-                                    <span></span>
-                                    "You will never fake the feeling of being in such a place. The live minimalism base on
-                                    the natural materials & alive unprocessed."
+                                    "Achieved the house of my dreams with the help of AL+ after trying out a few interior
+                                    designers out there, but none work as well as AL+. Thankyou so much for everything"
                                 </div>
                                 <div class="t-head flex-middle">
                                     <div class="tinfo">
-                                        <h6>Kristina Lee</h6>
-                                        <span>Client of Company</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="testi-item">
-                                <div class="ttext">
-                                    <div class="layer-behind"></div>
-                                    <span></span>
-                                    "You will never fake the feeling of being in such a place. The live minimalism base on
-                                    the natural materials & alive unprocessed."
-                                </div>
-                                <div class="t-head flex-middle">
-                                    <div class="tinfo">
-                                        <h6>Anna Paulina</h6>
-                                        <span>Client of Company</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="testi-item">
-                                <div class="ttext">
-                                    <div class="layer-behind"></div>
-                                    <span></span>
-                                    "You will never fake the feeling of being in such a place. The live minimalism base on
-                                    the natural materials & alive unprocessed."
-                                </div>
-                                <div class="t-head flex-middle">
-                                    <div class="tinfo">
-                                        <h6>Pablo Gusterio</h6>
-                                        <span>Client of Company</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="testi-item">
-                                <div class="ttext">
-                                    <div class="layer-behind"></div>
-                                    <span></span>
-                                    "You will never fake the feeling of being in such a place. The live minimalism base on
-                                    the natural materials & alive unprocessed."
-                                </div>
-                                <div class="t-head flex-middle">
-                                    <div class="tinfo">
-                                        <h6>Kristina Lee</h6>
-                                        <span>Client of Company</span>
+                                        <h6>Mr. B</h6>
+                                        <span> B House</span>
                                     </div>
                                 </div>
                             </div>

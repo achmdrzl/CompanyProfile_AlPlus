@@ -9068,17 +9068,6 @@ ol.style-default li:last-child {
     padding-right: 0;
     background-color: transparent;
 }
-.ot-testimonials .testi-item .ttext:before {
-    position: absolute;
-    top: -28px;
-    left: 28px;
-    content: "";
-    width: 80px;
-    height: 45px;
-    z-index: 1;
-    background: url("https://ik.imagekit.io/dxofqajmq/AlPlus%20Projects/Group%20279_s7uYoONRl.png?updatedAt=1707786957571")
-        no-repeat center;
-}
 .testimonials-slide-2.s2.owl-theme .owl-nav .owl-next,
 .testimonials-slide-2.s2.owl-theme .owl-nav .owl-prev {
     background-color: transparent;
