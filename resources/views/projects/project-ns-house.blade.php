@@ -17,40 +17,28 @@
         <div class="container">
             <div class="row">
                 <div class="space-90"></div>
-                <div class="col-lg-2 col-md-4 col-sm-6 col-6">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                     <div class="p-detail-info">
-                        <h6>architect:</h6>
-                        <p>David Oswald</p>
+                        <h6>designer:</h6>
+                        <p style="line-height: 1.5;">Almer NH., S. Ds & Vincentius Kevin, S. Ars., M. Ars.</p>
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-4 col-sm-6 col-6">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="p-detail-info">
+                        <h6>style:</h6>
+                        <p>Sleek Steel</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                     <div class="p-detail-info">
                         <h6>client:</h6>
-                        <p>OceanThemes</p>
+                        <p>Mr. K</p>
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-4 col-sm-6 col-6">
-                    <div class="p-detail-info">
-                        <h6>Terms::</h6>
-                        <p>6 month</p>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-sm-6 col-6">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                     <div class="p-detail-info">
                         <h6>project type::</h6>
-                        <p>Interior Design</p>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-sm-6 col-6">
-                    <div class="p-detail-info">
-                        <h6>Strategy::</h6>
-                        <p>Minimalistic</p>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-sm-6 col-6">
-                    <div class="p-detail-info">
-                        <h6>date::</h6>
-                        <p>November 22, 2020</p>
+                        <p>Kitchenset Build</p>
                     </div>
                 </div>
                 <div class="space-40"></div>

@@ -316,7 +316,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="project-item category-19 ">
+                            {{-- <div class="project-item category-19 ">
                                 <div class="projects-box">
                                     <div class="projects-thumbnail">
                                         <a href="{{ route('project.MsDiana') }}">
@@ -337,7 +337,7 @@
                                         <a class="overlay" href="{{ route('project.MsDiana') }}"></a>
                                     </div>
                                 </div>
-                            </div>
+                            </div> --}}
                             <div class="project-item category-20 ">
                                 <div class="projects-box">
                                     <div class="projects-thumbnail">

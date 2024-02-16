@@ -324,6 +324,98 @@
                         <div class="project-items category-19 ">
                             <div class="projects-box">
                                 <div class="projects-thumbnail">
+                                    <a href="{{ route('project.NgHouse') }}">
+                                        <img src="https://ik.imagekit.io/dxofqajmq/AlPlus%20Projects/NG-house/720_91glgpoa4.png?updatedAt=1707445619829"
+                                            alt="Project NG House Pagesangan">
+                                    </a>
+                                    <div class="overlay">
+                                        <h5>NG House Pagesangan</h5>
+                                        <i class="ot-flaticon-add"></i>
+                                    </div>
+                                </div>
+                                <div class="portfolio-info">
+                                    <div class="portfolio-info-inner">
+                                        <h5><a class="title-link" href="{{ route('project.NgHouse') }}">NG House
+                                                Pagesangan</a>
+                                        </h5>
+                                        <p class="portfolio-cates"><a href="#">House</a></p>
+                                    </div>
+                                    <a class="overlay" href="{{ route('project.NgHouse') }}"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-items category-19 ">
+                            <div class="projects-box">
+                                <div class="projects-thumbnail">
+                                    <a href="{{ route('project.NsHouse') }}">
+                                        <img src="https://ik.imagekit.io/dxofqajmq/AlPlus%20Projects/NS%20House/720_tupNNDwFF.png?updatedAt=1707446970561"
+                                            alt="Project NS House Pondok Tjandra">
+                                    </a>
+                                    <div class="overlay">
+                                        <h5>NS House Pondok Tjandra</h5>
+                                        <i class="ot-flaticon-add"></i>
+                                    </div>
+                                </div>
+                                <div class="portfolio-info">
+                                    <div class="portfolio-info-inner">
+                                        <h5><a class="title-link" href="{{ route('project.NsHouse') }}">NS House Pondok
+                                                Tjandra</a>
+                                        </h5>
+                                        <p class="portfolio-cates"><a href="#">House</a></p>
+                                    </div>
+                                    <a class="overlay" href="{{ route('project.NsHouse') }}"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-items category-20 ">
+                            <div class="projects-box">
+                                <div class="projects-thumbnail">
+                                    <a href="{{ route('project.BPuryGalaxy') }}">
+                                        <img src="https://ik.imagekit.io/dxofqajmq/AlPlus%20Projects/B%20House%20Puri%20Galaxy/(7272)_Z8cQv3WrQ.jpg?updatedAt=1707444775994"
+                                            alt="Project B Puri Galaxy">
+                                    </a>
+                                    <div class="overlay">
+                                        <h5>B House Puri Galaxy</h5>
+                                        <i class="ot-flaticon-add"></i>
+                                    </div>
+                                </div>
+                                <div class="portfolio-info">
+                                    <div class="portfolio-info-inner">
+                                        <h5><a class="title-link" href="{{ route('project.BPuryGalaxy') }}">B House Puri
+                                                Galaxy</a></h5>
+                                        <p class="portfolio-cates"><a
+                                                href="{{ route('project.BPuryGalaxy') }}">Kitchen</a>
+                                        </p>
+                                    </div>
+                                    <a class="overlay" href="{{ route('project.BPuryGalaxy') }}"></a>
+                                </div>
+                            </div>
+                        </div>
+                        {{-- <div class="project-items category-20 ">
+                            <div class="projects-box">
+                                <div class="projects-thumbnail">
+                                    <a href="{{ route('project.MsDiana') }}">
+                                        <img src="https://ik.imagekit.io/dxofqajmq/AlPlus%20Projects/Ms.%20Diana/(7272)DIANA2_000%201_NZfD7ACzP.jpg?updatedAt=1707443076126"
+                                            alt="Project D House">
+                                    </a>
+                                    <div class="overlay">
+                                        <h5>Ms. D House</h5>
+                                        <i class="ot-flaticon-add"></i>
+                                    </div>
+                                </div>
+                                <div class="portfolio-info">
+                                    <div class="portfolio-info-inner">
+                                        <h5><a class="title-link" href="{{ route('project.MsDiana') }}">Ms. D House</a>
+                                        </h5>
+                                        <p class="portfolio-cates"><a href="#">House</a></p>
+                                    </div>
+                                    <a class="overlay" href="{{ route('project.MsDiana') }}"></a>
+                                </div>
+                            </div>
+                        </div> --}}
+                        <div class="project-items category-19 ">
+                            <div class="projects-box">
+                                <div class="projects-thumbnail">
                                     <a href="{{ route('project.Lpetclinic') }}">
                                         <img src="https://ik.imagekit.io/dxofqajmq/AlPlus%20Projects/Ms.%20L%20Pet%20Clinic/(7272)PET3_5MiqT73QN.png?updatedAt=1707442814663"
                                             alt="Project Pet Clinic">
@@ -359,7 +451,8 @@
                                 </div>
                                 <div class="portfolio-info">
                                     <div class="portfolio-info-inner">
-                                        <h5><a class="title-link" href="{{ route('project.Rhouse') }}">Mr. R House</a></h5>
+                                        <h5><a class="title-link" href="{{ route('project.Rhouse') }}">Mr. R House</a>
+                                        </h5>
                                         <p class="portfolio-cates"><a href="{{ route('project.Rhouse') }}">House</a></p>
                                     </div>
                                     <a class="overlay" href="{{ route('project.Rhouse') }}"></a>
@@ -408,98 +501,6 @@
                                         </p>
                                     </div>
                                     <a class="overlay" href="{{ route('project.Hkitchen') }}"></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="project-items category-20 ">
-                            <div class="projects-box">
-                                <div class="projects-thumbnail">
-                                    <a href="{{ route('project.MsDiana') }}">
-                                        <img src="https://ik.imagekit.io/dxofqajmq/AlPlus%20Projects/Ms.%20Diana/(7272)DIANA2_000%201_NZfD7ACzP.jpg?updatedAt=1707443076126"
-                                            alt="Project D House">
-                                    </a>
-                                    <div class="overlay">
-                                        <h5>Ms. D House</h5>
-                                        <i class="ot-flaticon-add"></i>
-                                    </div>
-                                </div>
-                                <div class="portfolio-info">
-                                    <div class="portfolio-info-inner">
-                                        <h5><a class="title-link" href="{{ route('project.MsDiana') }}">Ms. D House</a>
-                                        </h5>
-                                        <p class="portfolio-cates"><a href="#">House</a></p>
-                                    </div>
-                                    <a class="overlay" href="{{ route('project.MsDiana') }}"></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="project-items category-20 ">
-                            <div class="projects-box">
-                                <div class="projects-thumbnail">
-                                    <a href="{{ route('project.BPuryGalaxy') }}">
-                                        <img src="https://ik.imagekit.io/dxofqajmq/AlPlus%20Projects/B%20House%20Puri%20Galaxy/(7272)_Z8cQv3WrQ.jpg?updatedAt=1707444775994"
-                                            alt="Project B Puri Galaxy">
-                                    </a>
-                                    <div class="overlay">
-                                        <h5>B House Puri Galaxy</h5>
-                                        <i class="ot-flaticon-add"></i>
-                                    </div>
-                                </div>
-                                <div class="portfolio-info">
-                                    <div class="portfolio-info-inner">
-                                        <h5><a class="title-link" href="{{ route('project.BPuryGalaxy') }}">B House Puri
-                                                Galaxy</a></h5>
-                                        <p class="portfolio-cates"><a
-                                                href="{{ route('project.BPuryGalaxy') }}">Kitchen</a>
-                                        </p>
-                                    </div>
-                                    <a class="overlay" href="{{ route('project.BPuryGalaxy') }}"></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="project-items category-19 ">
-                            <div class="projects-box">
-                                <div class="projects-thumbnail">
-                                    <a href="{{ route('project.NgHouse') }}">
-                                        <img src="https://ik.imagekit.io/dxofqajmq/AlPlus%20Projects/NG-house/720_91glgpoa4.png?updatedAt=1707445619829"
-                                            alt="Project NG House Pagesangan">
-                                    </a>
-                                    <div class="overlay">
-                                        <h5>NG House Pagesangan</h5>
-                                        <i class="ot-flaticon-add"></i>
-                                    </div>
-                                </div>
-                                <div class="portfolio-info">
-                                    <div class="portfolio-info-inner">
-                                        <h5><a class="title-link" href="{{ route('project.NgHouse') }}">NG House
-                                                Pagesangan</a>
-                                        </h5>
-                                        <p class="portfolio-cates"><a href="#">House</a></p>
-                                    </div>
-                                    <a class="overlay" href="{{ route('project.NgHouse') }}"></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="project-items category-19 ">
-                            <div class="projects-box">
-                                <div class="projects-thumbnail">
-                                    <a href="{{ route('project.NsHouse') }}">
-                                        <img src="https://ik.imagekit.io/dxofqajmq/AlPlus%20Projects/NS%20House/720_tupNNDwFF.png?updatedAt=1707446970561"
-                                            alt="Project NS House Pondok Tjandra">
-                                    </a>
-                                    <div class="overlay">
-                                        <h5>NS House Pondok Tjandra</h5>
-                                        <i class="ot-flaticon-add"></i>
-                                    </div>
-                                </div>
-                                <div class="portfolio-info">
-                                    <div class="portfolio-info-inner">
-                                        <h5><a class="title-link" href="{{ route('project.NsHouse') }}">NS House Pondok
-                                                Tjandra</a>
-                                        </h5>
-                                        <p class="portfolio-cates"><a href="#">House</a></p>
-                                    </div>
-                                    <a class="overlay" href="{{ route('project.NsHouse') }}"></a>
                                 </div>
                             </div>
                         </div>
