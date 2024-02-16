@@ -38,7 +38,7 @@
                 <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                     <div class="p-detail-info">
                         <h6>project type::</h6>
-                        <p>Kitchenset, Walk in Closet, and Interior Design Build</p>
+                        <p style="line-height: 1.5;">Kitchenset, Walk in Closet, and Interior Design Build</p>
                     </div>
                 </div>
                 <div class="space-40"></div>
