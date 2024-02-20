@@ -541,7 +541,9 @@
                             <div class="testi-item">
                                 <div class="ttext">
                                     <div class="layer-behind"></div>
-                                    "I'm amazed at the cleanliness. From the design phase to the construction, I found everything I required in one place. Thank you so much, AL+, for providing a comprehensive solution"
+                                    "I'm amazed at the cleanliness. From the design phase to the construction, I found
+                                    everything I required in one place. Thank you so much, AL+, for providing a
+                                    comprehensive solution"
                                 </div>
                                 <div class="t-head flex-middle">
                                     <div class="tinfo">
@@ -560,6 +562,33 @@
                                     <div class="tinfo">
                                         <h6>Mr. B</h6>
                                         <span> B House</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testi-item">
+                                <div class="ttext">
+                                    <div class="layer-behind"></div>
+                                    "“I never thought that pantries could be this beautifully and meticulously made.
+                                    Shoutout to AL+ for the elegant design and quality!"
+                                </div>
+                                <div class="t-head flex-middle">
+                                    <div class="tinfo">
+                                        <h6>Mr. L</h6>
+                                        <span> L House</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testi-item">
+                                <div class="ttext">
+                                    <div class="layer-behind"></div>
+                                    "At first I didn’t think that it’s possible to create an elegant and eye-pleasing design
+                                    using 100% aluminium, but AL+ has proved me wrong. My wife is very happy with our new
+                                    kitchen, and I would totally recommend AL+ to my friends and relatives."
+                                </div>
+                                <div class="t-head flex-middle">
+                                    <div class="tinfo">
+                                        <h6>Mr. R</h6>
+                                        <span> R House</span>
                                     </div>
                                 </div>
                             </div>
