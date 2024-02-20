@@ -54,7 +54,7 @@
                                     <span class="posted-on"><a href="#">February 13, 2024</a></span>
                                 </div>
                                 <h3 class="entry-title">Affordable
-                                    elegance: Bugdet
+                                    elegance: Budget
                                     Makeovers with ready-made panels for interior remodeling</h3>
                             </header>
                             <div class="entry-summary the-excerpt">
