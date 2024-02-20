@@ -40,8 +40,10 @@
                 <div class="content-area col-lg-9 col-md-12 col-sm-12 col-xs-12">
                     <article class="blog-post post-box">
                         <div class="entry-media post-cat-abs">
-                            <img src="https://ik.imagekit.io/dxofqajmq/AlPlus%20Projects/Blog/Rev%20VEN02211%20(2)_rE4dQzluP.png?updatedAt=1707783755345"
+                            <img src="https://ik.imagekit.io/dxofqajmq/AlPlus%20Projects/Blog/Rev%20VEN02211sss_Ra8Rhb46L.png?updatedAt=1708416952708"
                                 alt="">
+                            {{-- <img src="https://ik.imagekit.io/dxofqajmq/AlPlus%20Projects/Blog/Rev%20VEN02211%20(2)_rE4dQzluP.png?updatedAt=1707783755345"
+                                alt=""> --}}
                             <div class="post-cat">
                                 <div class="posted-in"><a href="#">Interiors</a></div>
                             </div>
@@ -100,8 +102,8 @@
                                         create a healthier, more sustainable living environment for you and your family</p>
                                 </ul>
                                 <div class="entry-media post-cat-abs">
-                                    <img src="https://ik.imagekit.io/dxofqajmq/AlPlus%20Projects/Blog/Rev%20VEN02211%20(1)_Y5iJUhtHS.png?updatedAt=1707783755364"
-                                        alt="">
+                                    {{-- <img src="https://ik.imagekit.io/dxofqajmq/AlPlus%20Projects/Blog/Rev%20VEN02211%20(1)_Y5iJUhtHS.png?updatedAt=1707783755364"
+                                        alt=""> --}}
                                 </div>
                                 <p>Ready-made panels like wallpaper and PVC offer an affordable and stylish solution for
                                     interior remodeling projects of any size. Whether you're looking to refresh a single

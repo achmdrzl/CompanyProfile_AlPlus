@@ -126,7 +126,7 @@
                             <ul class="footer-list">
                                 <li class="footer-list-item">
                                     <span class="list-item-icon"><i class="ot-flaticon-place"></i></span>
-                                    <span class="list-item-text">Jl. Embong Kenongo 77, Sby</span>
+                                    <span class="list-item-text">Trillium Office Lt. 1 (MYCO X) Surabaya</span>
                                 </li>
                                 <li class="footer-list-item">
                                     <span class="list-item-icon"><i class="ot-flaticon-mail"></i></span>

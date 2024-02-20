@@ -70,21 +70,21 @@
                             <i class="ot-flaticon-place"></i>
                             <div class="info-text">
                                 <h6>OUR ADDRESS:</h6>
-                                <p>411 University St, Seattle, USA</p>
+                                <p>Trillium Office Lt. 1 (MYCO X) Surabaya</p>
                             </div>
                         </div>
                         <div class="contact-info">
                             <i class="ot-flaticon-mail"></i>
                             <div class="info-text">
                                 <h6>OUR MAILBOX:</h6>
-                                <p><a href="mailto:theratio_interior@mail.com">theratio_interior@mail.com</a></p>
+                                <p><a href="mailto:alplus.id@gmail.com">alplus.id@gmail.com</a></p>
                             </div>
                         </div>
                         <div class="contact-info">
                             <i class="ot-flaticon-phone-call"></i>
                             <div class="info-text">
                                 <h6>OUR PHONE:</h6>
-                                <p><a href="tel:+1 800 456 789 123">+1 800 456 789 123</a></p>
+                                <p><a href="tel:+6287850882828">+6287850882828</a></p>
                             </div>
                         </div>
                         <div class="list-social">
