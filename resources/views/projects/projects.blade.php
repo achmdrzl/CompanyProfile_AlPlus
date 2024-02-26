@@ -250,8 +250,10 @@
                                 <div class="projects-box">
                                     <div class="projects-thumbnail">
                                         <a href="{{ route('project.NgHouse') }}">
-                                            <img src="https://ik.imagekit.io/dxofqajmq/AlPlus%20Projects/NG-house/720_91glgpoa4.png?updatedAt=1707445619829"
+                                            <img src="https://ik.imagekit.io/dxofqajmq/AlPlus%20Projects/NG-house/VEN02484_GiuVWWOTu.png?updatedAt=1708924156709"
                                                 alt="Project NG House Pagesangan">
+                                            {{-- <img src="https://ik.imagekit.io/dxofqajmq/AlPlus%20Projects/NG-house/720_91glgpoa4.png?updatedAt=1707445619829"
+                                                alt="Project NG House Pagesangan"> --}}
                                         </a>
                                         <div class="overlay">
                                             <h5>NG House Pagesangan</h5>

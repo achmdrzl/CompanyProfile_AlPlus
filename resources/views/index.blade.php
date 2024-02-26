@@ -156,12 +156,12 @@
                 <div class="col-lg-4 col-md-6 px-0">
                     <div class="cate-lines h-light">
                         <div class="cate-item">
-                            <a href="#">
+                            <a href="{{ route('projects.index') }}">
                                 <img src="{{ asset('assets/images/index/Rev VEN02211.png') }}" alt="">
                                 {{-- <img src="https://via.placeholder.com/750x422.png" alt=""> --}}
                             </a>
                             <div class="cate-item_content">
-                                <a href="#">
+                                <a href="{{ route('projects.index') }}">
                                     <h2>Kitchen<br> Solution<span class="number-stroke">01</span></h2>
                                 </a>
                             </div>
@@ -171,12 +171,12 @@
                 <div class="col-lg-4 col-md-6 px-0">
                     <div class="cate-lines h-light">
                         <div class="cate-item">
-                            <a href="#">
+                            <a href="{{ route('projects.index') }}">
                                 <img src="{{ asset('assets/images/index/MTXX_MH20230629_205105394 (1) 1.png') }}"
                                     alt="">
                             </a>
                             <div class="cate-item_content">
-                                <a href="#">
+                                <a href="{{ route('projects.index') }}">
                                     <h2>Built-in<br> Wardrobes<span class="number-stroke">02</span></h2>
                                 </a>
                             </div>
@@ -187,12 +187,12 @@
                     {{-- <div class="cate-lines s-dark"> --}}
                     <div class="cate-lines h-light">
                         <div class="cate-item">
-                            <a href="#">
+                            <a href="{{ route('projects.index') }}">
                                 <img src="{{ asset('assets/images/index/MTXX_MH20230629_204702557 1.png') }}"
                                     alt="">
                             </a>
                             <div class="cate-item_content">
-                                <a href="#">
+                                <a href="{{ route('projects.index') }}">
                                     <h2>Custom<br> Furnitures<span class="number-stroke">03</span></h2>
                                 </a>
                             </div>
@@ -325,8 +325,10 @@
                             <div class="projects-box">
                                 <div class="projects-thumbnail">
                                     <a href="{{ route('project.NgHouse') }}">
-                                        <img src="https://ik.imagekit.io/dxofqajmq/AlPlus%20Projects/NG-house/720_91glgpoa4.png?updatedAt=1707445619829"
+                                        <img src="https://ik.imagekit.io/dxofqajmq/AlPlus%20Projects/NG-house/VEN02484_GiuVWWOTu.png?updatedAt=1708924156709"
                                             alt="Project NG House Pagesangan">
+                                        {{-- <img src="https://ik.imagekit.io/dxofqajmq/AlPlus%20Projects/NG-house/720_91glgpoa4.png?updatedAt=1707445619829"
+                                            alt="Project NG House Pagesangan"> --}}
                                     </a>
                                     <div class="overlay">
                                         <h5>NG House Pagesangan</h5>
