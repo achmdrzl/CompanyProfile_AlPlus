@@ -1044,7 +1044,7 @@
                                     <h5 class="entry-title">
                                         <a class="title-link" href="{{ route('blog.b') }}"
                                             style="line-height: 1.3; display: block; margin-bottom: 10px;">Affordable
-                                            elegance: Bugdet
+                                            elegance: Budget
                                             Makeovers with ready-made panels for interior remodeling</a>
                                     </h5>
                                 </div><!-- .entry-header -->
