@@ -31,25 +31,25 @@
                 </div>
                 <div class="col-lg-2 col-md-4 col-sm-6 col-6">
                     <div class="p-detail-info">
-                        <h6>Terms::</h6>
+                        <h6>Terms:</h6>
                         <p>6 month</p>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-4 col-sm-6 col-6">
                     <div class="p-detail-info">
-                        <h6>project type::</h6>
+                        <h6>project type:</h6>
                         <p>Interior Design</p>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-4 col-sm-6 col-6">
                     <div class="p-detail-info">
-                        <h6>Strategy::</h6>
+                        <h6>Strategy:</h6>
                         <p>Minimalistic</p>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-4 col-sm-6 col-6">
                     <div class="p-detail-info">
-                        <h6>date::</h6>
+                        <h6>date:</h6>
                         <p>November 22, 2020</p>
                     </div>
                 </div>

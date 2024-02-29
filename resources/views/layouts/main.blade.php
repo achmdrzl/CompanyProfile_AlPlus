@@ -79,12 +79,14 @@
                     </div>
                     <div class="side-panel-social">
                         <ul>
-                            <li><a href="http://twitter.com" target="_self"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="http://facebook.com" target="_self"><i class="fab fa-facebook-f"></i></a>
+                            <li><a href="https://www.tiktok.com/@alplus.id" target="_blank"><i
+                                        class="fab fa-tiktok"></i></a>
                             </li>
-                            <li><a href="http://linkedin.com" target="_self"><i class="fab fa-linkedin-in"></i></a>
+                            <li><a href="http://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                             </li>
-                            <li><a href="http://instagram" target="_self"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="https://www.instagram.com/alplus.id/" target="_blank"><i
+                                        class="fab fa-instagram"></i></a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -106,14 +108,12 @@
                             <p>Made to last forever. Experience AL+, experience #ADefinitePlus.</p>
                             <div class="footer-social list-social">
                                 <ul>
-                                    <li><a href="http://facebook.com" target="_self"><i
-                                                class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="http://twitter.com" target="_self"><i
-                                                class="fab fa-twitter"></i></a>
+                                    <li><a href="https://www.tiktok.com/@alplus.id" target="_blank"><i
+                                                class="fab fa-tiktok"></i></a>
                                     </li>
-                                    <li><a href="http://linkedin.com" target="_self"><i
+                                    <li><a href="http://linkedin.com" target="_blank"><i
                                                 class="fab fa-linkedin-in"></i></a></li>
-                                    <li><a href="http://instagram" target="_self"><i
+                                    <li><a href="https://www.instagram.com/alplus.id/" target="_blank"><i
                                                 class="fab fa-instagram"></i></a>
                                     </li>
                                 </ul>
@@ -218,6 +218,7 @@
 
     <!-- REVOLUTION SLIDER SCRIPT FILES -->
     <script src="{{ asset('assets/js/rev-script-1.js') }}"></script>
+    <script src="https://kit.fontawesome.com/65495fce69.js" crossorigin="anonymous"></script>
     {{-- <script>
         window.jQuery = window.$ = jQuery;
         (function($) {

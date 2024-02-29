@@ -28,8 +28,8 @@
                                 <p>
                                     <label for="name"> <span class="error" id="err-name">please enter
                                             name</span></label>
-                                    <input type="text" name="name" value="" size="40" class=""
-                                        aria-invalid="false" placeholder="Your Name *" required>
+                                    <input type="text" name="name" id="name" value="" size="40"
+                                        class="" aria-invalid="false" placeholder="Your Name *" required>
                                 </p>
                                 <p>
                                     <label for="email">
@@ -44,7 +44,8 @@
                                     <textarea name="message" id="message" cols="40" rows="10" class="" aria-invalid="false"
                                         placeholder="Message..." required></textarea>
                                 </p>
-                                <p><button type="submit" id="send" class="octf-btn">Send Message</button></p>
+                                <p><button type="button" onclick="sendMail()" id="send" class="octf-btn">Send
+                                        Message</button></p>
                                 <div class="clear"></div>
                                 <div class="error" id="err-form">There was a problem validating the form please check!
                                 </div>
@@ -108,3 +109,25 @@
         </div>
     </div>
 @endsection
+
+<script>
+    function sendMail() {
+        // Get form data
+        var name = document.getElementById("name").value;
+        var email = document.getElementById("email").value;
+        var message = document.getElementById("message").value;
+
+        // Construct the mailto link
+        var mailtoLink = "mailto:alplus.id@gmail.com?subject=Form Submission&body=";
+        mailtoLink += encodeURIComponent("Name: " + name + "\n");
+        mailtoLink += encodeURIComponent("Email: " + email + "\n\n");
+        mailtoLink += encodeURIComponent("Message:\n" + message);
+
+        // Open default email client
+        window.location.href = mailtoLink;
+
+        name.val('')
+        email.val('')
+        message.val('')
+    }
+</script>

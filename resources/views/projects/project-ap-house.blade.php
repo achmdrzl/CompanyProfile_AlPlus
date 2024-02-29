@@ -1,14 +1,14 @@
 @extends('layouts.main')
 
 @section('content')
-    <div class="page-header dtable text-center header-transparent pheader-portfolio-detail-nshouse">
+    <div class="page-header dtable text-center header-transparent pheader-portfolio-detail-aphouse">
         <div class="dcell">
             <div class="container">
-                <h1 class="page-title">NS House</h1>
+                <h1 class="page-title">Mr. AP</h1>
                 <ul id="breadcrumbs" class="breadcrumbs none-style">
                     <li><a href="{{ route('index') }}">Home</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li class="active">Pondak Tjandra</li>
+                    <li><a href="">Portfolio</a></li>
+                    <li class="active">House</li>
                 </ul>
             </div>
         </div>
@@ -26,19 +26,19 @@
                 <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                     <div class="p-detail-info">
                         <h6>style:</h6>
-                        <p>Sleek Steel</p>
+                        <p>Homey Tonal Beige</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                     <div class="p-detail-info">
                         <h6>client:</h6>
-                        <p>Mr. K</p>
+                        <p>Mr. AP</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                     <div class="p-detail-info">
                         <h6>project type:</h6>
-                        <p>Kitchenset Build</p>
+                        <p style="line-height: 1.5;">Kitchenset, Walk in Closet, and Interior Design Build</p>
                     </div>
                 </div>
                 <div class="space-40"></div>
@@ -47,9 +47,8 @@
                         <div id="gallery-2" class="gallery gallery-columns-1 s2">
                             <figure class="gallery-item">
                                 <div class="gallery-icon portrait">
-                                    <a
-                                        href="https://ik.imagekit.io/dxofqajmq/AlPlus%20Projects/NS%20House/1170-3_-PSznTbme.png?updatedAt=1707446970589">
-                                        <img src="https://ik.imagekit.io/dxofqajmq/AlPlus%20Projects/NS%20House/1170-3_-PSznTbme.png?updatedAt=1707446970589"
+                                    <a href="{{ asset('assets/images/projects/AP HOUSE/(11759)APR1 1.png') }}">
+                                        <img src="{{ asset('assets/images/projects/AP HOUSE/(11759)APR1 1.png') }}"
                                             alt="">
                                         <span class="overlay"><i class="ot-flaticon-add"></i></span>
                                     </a>
@@ -57,9 +56,8 @@
                             </figure>
                             <figure class="gallery-item">
                                 <div class="gallery-icon portrait">
-                                    <a
-                                        href="https://ik.imagekit.io/dxofqajmq/AlPlus%20Projects/NS%20House/1170-2_I8a0ly4gc.png?updatedAt=1707446970559">
-                                        <img src="https://ik.imagekit.io/dxofqajmq/AlPlus%20Projects/NS%20House/1170-2_I8a0ly4gc.png?updatedAt=1707446970559"
+                                    <a href="{{ asset('assets/images/projects/AP HOUSE/(11759)APR1_000.png') }}">
+                                        <img src="{{ asset('assets/images/projects/AP HOUSE/(11759)APR1_000.png') }}"
                                             alt="">
                                         <span class="overlay"><i class="ot-flaticon-add"></i></span>
                                     </a>
@@ -67,19 +65,8 @@
                             </figure>
                             <figure class="gallery-item">
                                 <div class="gallery-icon portrait">
-                                    <a
-                                        href="https://ik.imagekit.io/dxofqajmq/AlPlus%20Projects/NS%20House/1170_AtEWn_-5H.png?updatedAt=1707446970541">
-                                        <img src="https://ik.imagekit.io/dxofqajmq/AlPlus%20Projects/NS%20House/1170_AtEWn_-5H.png?updatedAt=1707446970541"
-                                            alt="">
-                                        <span class="overlay"><i class="ot-flaticon-add"></i></span>
-                                    </a>
-                                </div>
-                            </figure>
-                            <figure class="gallery-item">
-                                <div class="gallery-icon portrait">
-                                    <a
-                                        href="https://ik.imagekit.io/dxofqajmq/AlPlus%20Projects/NS%20House/1170-4_5xwZajclx.png?updatedAt=1707446970382">
-                                        <img src="https://ik.imagekit.io/dxofqajmq/AlPlus%20Projects/NS%20House/1170-4_5xwZajclx.png?updatedAt=1707446970382"
+                                    <a href="{{ asset('assets/images/projects/AP HOUSE/(11759)APR1_001.png') }}">
+                                        <img src="{{ asset('assets/images/projects/AP HOUSE/(11759)APR1_001.png') }}"
                                             alt="">
                                         <span class="overlay"><i class="ot-flaticon-add"></i></span>
                                     </a>
@@ -93,9 +80,9 @@
             <div class="row">
                 <div class="col-lg-12">
                     {{-- <p><span class="drop-cap"><span class="drop-cap-letter">C</span></span>onsidering the physical, mental, --}}
-                    <p> Aiming for the grand look, we designed the kitchen set to have three parts from the bottom up :
-                        lower, middle, and upper. Pairing the misty grey with a dark wood finish, this particular project
-                        screams mysteriousness and elegance.</p>
+                    <p> Clad in aluminium from top to bottom, we dressed the interior in soft rose gold and light
+                        wooden-like touches. The house didn’t have a room specifically for storage, so we created seamless
+                        ones that melts into the walls of the TV area. Can you spot it?</p>
                     {{-- <p><strong>Biophilia is the idea that humans possess an innate tendency to seek connections with
                             nature.</strong> The term translates to ‘the love of living things’ in ancient Greek (philia =
                         the love of / inclination towards), and was used by German-born American psychoanalyst Erich Fromm

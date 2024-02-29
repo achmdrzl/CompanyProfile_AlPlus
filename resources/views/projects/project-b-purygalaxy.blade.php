@@ -4,11 +4,11 @@
     <div class="page-header dtable text-center header-transparent pheader-portfolio-detail-bpury">
         <div class="dcell">
             <div class="container">
-                <h1 class="page-title">B House Puri Galaxy</h1>
+                <h1 class="page-title">B House</h1>
                 <ul id="breadcrumbs" class="breadcrumbs none-style">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="portfolio-masonry.html">Portfolio</a></li>
-                    <li class="active">B House Puri Galaxy</li>
+                    <li><a href="{{ route('index') }}">Home</a></li>
+                    <li><a href="">Portfolio</a></li>
+                    <li class="active">Puri Galaxy</li>
                 </ul>
             </div>
         </div>
@@ -37,7 +37,7 @@
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                     <div class="p-detail-info">
-                        <h6>project type::</h6>
+                        <h6>project type:</h6>
                         <p style="line-height: 1.5;">Kitchenset, Walk in Closet, and Interior Design Build</p>
                     </div>
                 </div>

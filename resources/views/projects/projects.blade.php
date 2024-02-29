@@ -231,16 +231,15 @@
                                                 alt="Project B Pury Galaxy">
                                         </a>
                                         <div class="overlay">
-                                            <h5>B House Puri Galaxy</h5>
+                                            <h5>B House</h5>
                                             <i class="ot-flaticon-add"></i>
                                         </div>
                                     </div>
                                     <div class="portfolio-info">
                                         <div class="portfolio-info-inner">
-                                            <h5><a class="title-link" href="{{ route('project.BPuryGalaxy') }}">B House
-                                                    Puri Galaxy</a>
+                                            <h5><a class="title-link" href="{{ route('project.BPuryGalaxy') }}">B House</a>
                                             </h5>
-                                            <p class="portfolio-cates"><a href="#">House</a></p>
+                                            <p class="portfolio-cates"><a href="#">Puri Galaxy</a></p>
                                         </div>
                                         <a class="overlay" href="{{ route('project.BPuryGalaxy') }}"></a>
                                     </div>
@@ -256,16 +255,15 @@
                                                 alt="Project NG House Pagesangan"> --}}
                                         </a>
                                         <div class="overlay">
-                                            <h5>NG House Pagesangan</h5>
+                                            <h5>NG House</h5>
                                             <i class="ot-flaticon-add"></i>
                                         </div>
                                     </div>
                                     <div class="portfolio-info">
                                         <div class="portfolio-info-inner">
-                                            <h5><a class="title-link" href="{{ route('project.NgHouse') }}">NG House
-                                                    Pagesangan</a>
+                                            <h5><a class="title-link" href="{{ route('project.NgHouse') }}">NG House</a>
                                             </h5>
-                                            <p class="portfolio-cates"><a href="#">House</a></p>
+                                            <p class="portfolio-cates"><a href="#">Pagesangan</a></p>
                                         </div>
                                         <a class="overlay" href="{{ route('project.NgHouse') }}"></a>
                                     </div>
@@ -285,10 +283,9 @@
                                     </div>
                                     <div class="portfolio-info">
                                         <div class="portfolio-info-inner">
-                                            <h5><a class="title-link" href="{{ route('project.NsHouse') }}">NS House Pondok
-                                                    Tjandra</a>
+                                            <h5><a class="title-link" href="{{ route('project.NsHouse') }}">NS House</a>
                                             </h5>
-                                            <p class="portfolio-cates"><a href="#">House</a></p>
+                                            <p class="portfolio-cates"><a href="#">Pondok Tjandra</a></p>
                                         </div>
                                         <a class="overlay" href="{{ route('project.NsHouse') }}"></a>
                                     </div>
@@ -302,14 +299,13 @@
                                                 alt="Project H Kitchen">
                                         </a>
                                         <div class="overlay">
-                                            <h5>Mr. H Kitchen</h5>
+                                            <h5>Mr. H</h5>
                                             <i class="ot-flaticon-add"></i>
                                         </div>
                                     </div>
                                     <div class="portfolio-info">
                                         <div class="portfolio-info-inner">
-                                            <h5><a class="title-link" href="{{ route('project.Hkitchen') }}">Mr. H
-                                                    Kitchen</a></h5>
+                                            <h5><a class="title-link" href="{{ route('project.Hkitchen') }}">Mr. H</a></h5>
                                             <p class="portfolio-cates"><a
                                                     href="{{ route('project.Hkitchen') }}">Kitchen</a>
                                             </p>
@@ -318,28 +314,28 @@
                                     </div>
                                 </div>
                             </div>
-                            {{-- <div class="project-item category-19 ">
+                            <div class="project-item category-19 ">
                                 <div class="projects-box">
                                     <div class="projects-thumbnail">
                                         <a href="{{ route('project.MsDiana') }}">
-                                            <img src="https://ik.imagekit.io/dxofqajmq/AlPlus%20Projects/Ms.%20Diana/(7272)DIANA2_000%201_NZfD7ACzP.jpg?updatedAt=1707443076126"
+                                            <img src="{{ asset('assets/images/projects/Ms. Diana/(7272)DIANA_000.png') }}"
                                                 alt="Proejct D House">
                                         </a>
                                         <div class="overlay">
-                                            <h5>Ms. D House</h5>
+                                            <h5>Ms. D</h5>
                                             <i class="ot-flaticon-add"></i>
                                         </div>
                                     </div>
                                     <div class="portfolio-info">
                                         <div class="portfolio-info-inner">
-                                            <h5><a class="title-link" href="{{ route('project.MsDiana') }}">Ms. D House</a>
+                                            <h5><a class="title-link" href="{{ route('project.MsDiana') }}">Ms. D</a>
                                             </h5>
                                             <p class="portfolio-cates"><a href="#">House</a></p>
                                         </div>
                                         <a class="overlay" href="{{ route('project.MsDiana') }}"></a>
                                     </div>
                                 </div>
-                            </div> --}}
+                            </div>
                             <div class="project-item category-20 ">
                                 <div class="projects-box">
                                     <div class="projects-thumbnail">
@@ -348,14 +344,13 @@
                                                 alt="Project L House">
                                         </a>
                                         <div class="overlay">
-                                            <h5>Mr. L House</h5>
+                                            <h5>Mr. L</h5>
                                             <i class="ot-flaticon-add"></i>
                                         </div>
                                     </div>
                                     <div class="portfolio-info">
                                         <div class="portfolio-info-inner">
-                                            <h5><a class="title-link" href="{{ route('project.Lhouse') }}">Mr. L
-                                                    House</a>
+                                            <h5><a class="title-link" href="{{ route('project.Lhouse') }}">Mr. L</a>
                                             </h5>
                                             <p class="portfolio-cates"><a href="{{ route('project.Lhouse') }}">House</a>
                                             </p>
@@ -372,14 +367,13 @@
                                                 alt="Project R House">
                                         </a>
                                         <div class="overlay">
-                                            <h5>Mr. R House</h5>
+                                            <h5>Mr. R</h5>
                                             <i class="ot-flaticon-add"></i>
                                         </div>
                                     </div>
                                     <div class="portfolio-info">
                                         <div class="portfolio-info-inner">
-                                            <h5><a class="title-link" href="{{ route('project.Rhouse') }}">Mr. R
-                                                    House</a>
+                                            <h5><a class="title-link" href="{{ route('project.Rhouse') }}">Mr. R</a>
                                             </h5>
                                             <p class="portfolio-cates"><a href="{{ route('project.Rhouse') }}">House</a>
                                             </p>
@@ -396,19 +390,88 @@
                                                 alt="Project L Pet Clinic">
                                         </a>
                                         <div class="overlay">
-                                            <h5>Ms. L Pet Clinic</h5>
+                                            <h5>Ms. L</h5>
                                             <i class="ot-flaticon-add"></i>
                                         </div>
                                     </div>
                                     <div class="portfolio-info">
                                         <div class="portfolio-info-inner">
-                                            <h5><a class="title-link" href="{{ route('project.Lpetclinic') }}">Ms. L Pet
-                                                    Clinic</a>
+                                            <h5><a class="title-link" href="{{ route('project.Lpetclinic') }}">Ms. L
+                                                    Pet</a>
                                             </h5>
                                             <p class="portfolio-cates"><a href="{{ route('project.Lpetclinic') }}">Pet
                                                     Clinic</a></p>
                                         </div>
                                         <a class="overlay" href="{{ route('project.Lpetclinic') }}"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-item category-20 ">
+                                <div class="projects-box">
+                                    <div class="projects-thumbnail">
+                                        <a href="{{ route('project.NfHouse') }}">
+                                            <img src="https://ik.imagekit.io/dxofqajmq/AlPlus%20Projects/NF%20House/Image11_TctXHM1zz.png?updatedAt=1709189193129"
+                                                alt="Project L Pet Clinic">
+                                        </a>
+                                        <div class="overlay">
+                                            <h5>Mr. NF</h5>
+                                            <i class="ot-flaticon-add"></i>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio-info">
+                                        <div class="portfolio-info-inner">
+                                            <h5><a class="title-link" href="{{ route('project.NfHouse') }}">Mr. NF</a>
+                                            </h5>
+                                            <p class="portfolio-cates"><a href="{{ route('project.NfHouse') }}">House</a>
+                                            </p>
+                                        </div>
+                                        <a class="overlay" href="{{ route('project.NfHouse') }}"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-item category-20 ">
+                                <div class="projects-box">
+                                    <div class="projects-thumbnail">
+                                        <a href="{{ route('project.SkHouse') }}">
+                                            <img src="https://ik.imagekit.io/dxofqajmq/AlPlus%20Projects/SK%20House/(7272)SEIKO2_000_f_j_03ae9S.png?updatedAt=1709190368511"
+                                                alt="Project Mr. SK House">
+                                        </a>
+                                        <div class="overlay">
+                                            <h5>Mr. SK</h5>
+                                            <i class="ot-flaticon-add"></i>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio-info">
+                                        <div class="portfolio-info-inner">
+                                            <h5><a class="title-link" href="{{ route('project.SkHouse') }}">Mr. SK</a>
+                                            </h5>
+                                            <p class="portfolio-cates"><a href="{{ route('project.SkHouse') }}">House</a>
+                                            </p>
+                                        </div>
+                                        <a class="overlay" href="{{ route('project.SkHouse') }}"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-item category-20 ">
+                                <div class="projects-box">
+                                    <div class="projects-thumbnail">
+                                        <a href="{{ route('project.ApHouse') }}">
+                                            <img src="https://ik.imagekit.io/dxofqajmq/AlPlus%20Projects/AP%20HOUSE/(11759)APR1_000%201_Q8NjDopjg.png?updatedAt=1709191285713"
+                                                alt="Project Mr. SK House">
+                                        </a>
+                                        <div class="overlay">
+                                            <h5>Mr. AP</h5>
+                                            <i class="ot-flaticon-add"></i>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio-info">
+                                        <div class="portfolio-info-inner">
+                                            <h5><a class="title-link" href="{{ route('project.ApHouse') }}">Mr. AP</a>
+                                            </h5>
+                                            <p class="portfolio-cates"><a href="{{ route('project.ApHouse') }}">House</a>
+                                            </p>
+                                        </div>
+                                        <a class="overlay" href="{{ route('project.ApHouse') }}"></a>
                                     </div>
                                 </div>
                             </div>

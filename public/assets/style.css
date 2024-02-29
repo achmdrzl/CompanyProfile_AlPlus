@@ -4415,7 +4415,8 @@ object {
     background: #0a0a0a;
 }
 .ot-testimonials.v-dark .testi-item .ttext:before {
-    background: url("https://ik.imagekit.io/dxofqajmq/AlPlus%20Projects/Group%20279_s7uYoONRl.png?updatedAt=1707786957571") no-repeat center;
+    background: url("https://ik.imagekit.io/dxofqajmq/AlPlus%20Projects/Group%20279_s7uYoONRl.png?updatedAt=1707786957571")
+        no-repeat center;
 }
 .ot-testimonials.v-dark .testi-item .ttext .layer-behind {
     background: #1a1a1a;
@@ -7592,6 +7593,15 @@ section {
 }
 .pheader-portfolio-detail-nshouse {
     background-image: url(https://ik.imagekit.io/dxofqajmq/AlPlus%20Projects/NS%20House/1920_W3aw7vKGX.png?updatedAt=1707449764743);
+}
+.pheader-portfolio-detail-nfhouse {
+    background-image: url(https://ik.imagekit.io/dxofqajmq/AlPlus%20Projects/NF%20House/Image2%201_AS1sUS8wk.png?updatedAt=1709189539001);
+}
+.pheader-portfolio-detail-skhouse {
+    background-image: url(https://ik.imagekit.io/dxofqajmq/AlPlus%20Projects/SK%20House/SEIKO2%201_WgCkXwHlw.png?updatedAt=1709190672511);
+}
+.pheader-portfolio-detail-aphouse {
+    background-image: url(https://ik.imagekit.io/dxofqajmq/AlPlus%20Projects/AP%20HOUSE/APR1%201_S_3w1eQ-g.png?updatedAt=1709191321717);
 }
 
 /* Post */

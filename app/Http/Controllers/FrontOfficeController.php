@@ -70,6 +70,24 @@ class FrontOfficeController extends Controller
         return view('projects.project-ns-house');
     }
 
+    // PROJECT NF HOUSE
+    public function projectNfHouse()
+    {
+        return view('projects.project-nf-house');
+    }
+
+    // PROJECT SK HOUSE
+    public function projectSkHouse()
+    {
+        return view('projects.project-sk-house');
+    }
+
+    // PROJECT AP HOUSE
+    public function projectApHouse()
+    {
+        return view('projects.project-ap-house');
+    }
+
 
     public function blog()
     {
