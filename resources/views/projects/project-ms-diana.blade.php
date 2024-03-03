@@ -4,11 +4,11 @@
     <div class="page-header dtable text-center header-transparent pheader-portfolio-detail-diana">
         <div class="dcell">
             <div class="container">
-                <h1 class="page-title">Ms. D</h1>
+                <h1 class="page-title">D House</h1>
                 <ul id="breadcrumbs" class="breadcrumbs none-style">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="portfolio-masonry.html">Portfolio</a></li>
-                    <li class="active">House</li>
+                    <li><a href="{{ route('index') }}">Home</a></li>
+                    <li><a href="{{ route('projects.index') }}">Portfolio</a></li>
+                    <li class="active">Malang</li>
                 </ul>
             </div>
         </div>
@@ -20,25 +20,25 @@
                 <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                     <div class="p-detail-info">
                         <h6>designer:</h6>
-                        <p style="line-height: 1.5;">Almer NH., S. Ds & Vincentius Kevin, S. Ars., M. Ars.</p>
+                        <p style="line-height: 1.5;">Samantha Angelia, S. Ars, & Vincentius Kevin, S. Ars., M. Ars.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                     <div class="p-detail-info">
                         <h6>style:</h6>
-                        <p>Homey Tonal Beige</p>
+                        <p>Modern American</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                     <div class="p-detail-info">
                         <h6>client:</h6>
-                        <p>Ms. D</p>
+                        <p>Mrs. D</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                     <div class="p-detail-info">
                         <h6>project type:</h6>
-                        <p style="line-height: 1.5;">Kitchenset, Walk in Closet, and Interior Design Build</p>
+                        <p style="line-height: 1.5;">Kitchenset Build</p>
                     </div>
                 </div>
                 <div class="space-40"></div>
@@ -93,20 +93,16 @@
             <div class="row">
                 <div class="col-lg-12">
                     {{-- <p><span class="drop-cap"><span class="drop-cap-letter">C</span></span>onsidering the physical, mental, --}}
-                    <p> Considering the physical, mental,
-                        and emotional needs of people, interior designers use human-centered approaches to address how we
-                        live today. Creating novel approaches to promoting health, safety, and welfare, contemporary
-                        interiors are increasingly inspired by biophilia as a holistic approach to promoting health, safety,
-                        and welfare, contemporary interiors are increasingly inspired by biophilia as a holistic approach to
-                        design. By definition, interior design encompasses diverse aspects of our environment. The
-                        discipline extends to building materials and finishes; casework, furniture.</p>
-                    <p><strong>Biophilia is the idea that humans possess an innate tendency to seek connections with
+                    <p> Sometimes we do snatched lines, sometimes we do classical composures. A modern American inspired
+                        house, all the way from the kitchen to the walk-in-closets. The framed cabinet doors adds a nice
+                        vintage feel, while the whitish beige tone adds warmth to the scene.</p>
+                    {{-- <p><strong>Biophilia is the idea that humans possess an innate tendency to seek connections with
                             nature.</strong> The term translates to ‘the love of living things’ in ancient Greek (philia =
                         the love of / inclination towards), and was used by German-born American psychoanalyst Erich Fromm
                         in The Anatomy of Human Destructiveness (1973), which described biophilia as “the passionate love of
                         life and of all that is alive.” The term was later used by American biologist Edward O. Wilson in
                         his work Biophilia (1984), which proposed that the tendency of humans to focus on and to affiliate
-                        with nature and other life-forvms.</p>
+                        with nature and other life-forvms.</p> --}}
                     <div class="space-20"></div>
                     <div class="space-5"></div>
                     <div class="share-portfolio">

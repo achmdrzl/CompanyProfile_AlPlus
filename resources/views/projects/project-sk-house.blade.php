@@ -4,11 +4,11 @@
     <div class="page-header dtable text-center header-transparent pheader-portfolio-detail-skhouse">
         <div class="dcell">
             <div class="container">
-                <h1 class="page-title">Mr. SK</h1>
+                <h1 class="page-title">SK House</h1>
                 <ul id="breadcrumbs" class="breadcrumbs none-style">
                     <li><a href="{{ route('index') }}">Home</a></li>
-                    <li><a href="">Portfolio</a></li>
-                    <li class="active">House</li>
+                    <li><a href="{{ route('projects.index') }}">Portfolio</a></li>
+                    <li class="active">Citraland Surabaya</li>
                 </ul>
             </div>
         </div>
@@ -26,7 +26,7 @@
                 <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                     <div class="p-detail-info">
                         <h6>style:</h6>
-                        <p>Homey Tonal Beige</p>
+                        <p>Classy Luxe</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-6">
@@ -38,7 +38,7 @@
                 <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                     <div class="p-detail-info">
                         <h6>project type:</h6>
-                        <p style="line-height: 1.5;">Kitchenset, Walk in Closet, and Interior Design Build</p>
+                        <p style="line-height: 1.5;">Kitchenset Build</p>
                     </div>
                 </div>
                 <div class="space-40"></div>
@@ -80,9 +80,9 @@
             <div class="row">
                 <div class="col-lg-12">
                     {{-- <p><span class="drop-cap"><span class="drop-cap-letter">C</span></span>onsidering the physical, mental, --}}
-                    <p> Clad in aluminium from top to bottom, we dressed the interior in soft rose gold and light
-                        wooden-like touches. The house didn’t have a room specifically for storage, so we created seamless
-                        ones that melts into the walls of the TV area. Can you spot it?</p>
+                    <p> The client had references from interior designers from across the globe – the brief was to make
+                        everything luxurious and glamorous. Emphasizing on the beauty of aged wood texture and golden
+                        linings, this project stood differently than the others, elegant and charming on its own.</p>
                     {{-- <p><strong>Biophilia is the idea that humans possess an innate tendency to seek connections with
                             nature.</strong> The term translates to ‘the love of living things’ in ancient Greek (philia =
                         the love of / inclination towards), and was used by German-born American psychoanalyst Erich Fromm

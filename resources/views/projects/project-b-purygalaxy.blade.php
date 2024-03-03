@@ -7,7 +7,7 @@
                 <h1 class="page-title">B House</h1>
                 <ul id="breadcrumbs" class="breadcrumbs none-style">
                     <li><a href="{{ route('index') }}">Home</a></li>
-                    <li><a href="">Portfolio</a></li>
+                    <li><a href="{{ route('projects.index') }}">Portfolio</a></li>
                     <li class="active">Puri Galaxy</li>
                 </ul>
             </div>

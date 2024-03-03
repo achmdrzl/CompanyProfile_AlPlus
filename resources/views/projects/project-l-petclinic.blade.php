@@ -4,11 +4,11 @@
     <div class="page-header dtable text-center header-transparent pheader-portfolio-detail-lpetclinic">
         <div class="dcell">
             <div class="container">
-                <h1 class="page-title">Ms. L</h1>
+                <h1 class="page-title">Pet Clinic</h1>
                 <ul id="breadcrumbs" class="breadcrumbs none-style">
                     <li><a href="{{ route('index') }}">Home</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li class="active">Pet Clinic</li>
+                    <li><a href="{{ route('projects.index') }}">Portfolio</a></li>
+                    <li class="active">Ruko VBM</li>
                 </ul>
             </div>
         </div>

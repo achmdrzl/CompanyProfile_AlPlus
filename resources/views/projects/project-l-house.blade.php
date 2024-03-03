@@ -4,11 +4,11 @@
     <div class="page-header dtable text-center header-transparent pheader-portfolio-detail-ihouse">
         <div class="dcell">
             <div class="container">
-                <h1 class="page-title">Mr. L</h1>
+                <h1 class="page-title">L House</h1>
                 <ul id="breadcrumbs" class="breadcrumbs none-style">
                     <li><a href="{{ route('index') }}">Home</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li class="active">House</li>
+                    <li><a href="{{ route('projects.index') }}">Portfolio</a></li>
+                    <li class="active">San Diego</li>
                 </ul>
             </div>
         </div>
