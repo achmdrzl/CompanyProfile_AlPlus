@@ -7594,15 +7594,15 @@ section {
 .pheader-portfolio-detail-nshouse {
     background-image: url(https://ik.imagekit.io/dxofqajmq/AlPlus%20Projects/NS%20House/1920_W3aw7vKGX.png?updatedAt=1707449764743);
 }
-.pheader-portfolio-detail-nfhouse {
+/* .pheader-portfolio-detail-nfhouse {
     background-image: url(https://ik.imagekit.io/swurb4sgp/ALPLUS/NF%20House/Image2%201.png?updatedAt=1709433611711);
 }
 .pheader-portfolio-detail-skhouse {
     background-image: url(https://ik.imagekit.io/swurb4sgp/ALPLUS/SK%20House/SEIKO2%201.png?updatedAt=1709433672642);
-}
-.pheader-portfolio-detail-aphouse {
-    background-image: url(https://ik.imagekit.io/swurb4sgp/ALPLUS/AP%20House/APR1%201.png?updatedAt=1709433738781);
-}
+} */
+/* .pheader-portfolio-detail-aphouse {
+    background-image: url('{{ asset("assets/images/projects/AP HOUSE/APR1 1.png") }}');
+} */
 
 /* Post */
 .comments-title span {

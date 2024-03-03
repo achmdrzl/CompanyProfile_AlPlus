@@ -1,7 +1,8 @@
 @extends('layouts.main')
 
 @section('content')
-    <div class="page-header dtable text-center header-transparent pheader-portfolio-detail-nfhouse">
+    <div class="page-header dtable text-center header-transparent pheader-portfolio-detail-nfhouse"
+        style="background-image: url('{{ asset('assets/images/projects/nf house/Image2 1.png') }}')">
         <div class="dcell">
             <div class="container">
                 <h1 class="page-title">NF House</h1>

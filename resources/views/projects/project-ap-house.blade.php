@@ -1,7 +1,8 @@
 @extends('layouts.main')
 
 @section('content')
-    <div class="page-header dtable text-center header-transparent pheader-portfolio-detail-aphouse">
+    <div class="page-header dtable text-center header-transparent pheader-portfolio-detail-aphouse"
+        style="background-image: url('{{ asset('assets/images/projects/AP HOUSE/APR1 1.png') }}')">
         <div class="dcell">
             <div class="container">
                 <h1 class="page-title">AP House</h1>
