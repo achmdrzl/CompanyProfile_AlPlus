@@ -27,7 +27,7 @@ Route::get('/projects-ms-diana', FrontOfficeController::class . '@projectMsDiana
 Route::get('/projects-b-purygalaxy', FrontOfficeController::class . '@projectBPuryGalaxy')->name('project.BPuryGalaxy');
 Route::get('/projects-ng-house', FrontOfficeController::class . '@projectNgHouse')->name('project.NgHouse');
 Route::get('/projects-ns-house', FrontOfficeController::class . '@projectNsHouse')->name('project.NsHouse');
-Route::get('/projects-nh-house', FrontOfficeController::class . '@projectNfHouse')->name('project.NfHouse');
+Route::get('/projects-nf-house', FrontOfficeController::class . '@projectNfHouse')->name('project.NfHouse');
 Route::get('/projects-sk-house', FrontOfficeController::class . '@projectSkHouse')->name('project.SkHouse');
 Route::get('/projects-ap-house', FrontOfficeController::class . '@projectApHouse')->name('project.ApHouse');
 

@@ -78,7 +78,9 @@
             <div class="row">
                 <div class="col-lg-12">
                     {{-- <p><span class="drop-cap"><span class="drop-cap-letter">C</span></span>onsidering the physical, mental, --}}
-                    <p> Located next to the main road, the client wanted a bar-style pantry that overlooked the town. Acting as a leisure spot to enjoy during day or nighttime, the bar provides a clear shot of the city view – perfect for slow days at home.</p>
+                    <p> Located next to the main road, the client wanted a bar-style pantry that overlooked the town. Acting
+                        as a leisure spot to enjoy during day or nighttime, the bar provides a clear shot of the city view –
+                        perfect for slow days at home.</p>
                     {{-- <p><strong>Biophilia is the idea that humans possess an innate tendency to seek connections with
                             nature.</strong> The term translates to ‘the love of living things’ in ancient Greek (philia =
                         the love of / inclination towards), and was used by German-born American psychoanalyst Erich Fromm
