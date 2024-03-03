@@ -86,16 +86,7 @@
                         with nature and other life-forvms.</p> --}}
                     <div class="space-20"></div>
                     <div class="space-5"></div>
-                    <div class="share-portfolio">
-                        <a class="twit" target="_blank" href="twitter.com" title="Twitter"><i
-                                class="fab fa-twitter"></i></a>
-                        <a class="face" target="_blank" href="facebook.com" title="Facebook"><i
-                                class="fab fa-facebook-f"></i></a>
-                        <a class="pint" target="_blank" href="pinterest.com" title="Pinterest"><i
-                                class="fab fa-pinterest-p"></i></a>
-                        <a class="linked" target="_blank" href="linkedin.com" title="LinkedIn"><i
-                                class="fab fa-linkedin-in"></i></a>
-                    </div>
+                    @include('layouts.share-porto')
                 </div>
             </div>
             {{-- <div class="row">
