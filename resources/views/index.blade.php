@@ -30,6 +30,20 @@
             text-align: center;
             margin: 0 auto;
         }
+
+        .cta {
+            background-size: cover;
+            color: #FFF;
+        }
+
+        @media (max-width: 767px) {
+            .cta {
+                background-size: contain;
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        }
     </style>
 @endpush
 
@@ -188,8 +202,7 @@
                     <div class="cate-lines h-light">
                         <div class="cate-item">
                             <a href="{{ route('projects.index') }}">
-                                <img src="{{ asset('assets/images/index/MTXX_MH20230629_204702557 1.png') }}"
-                                    alt="">
+                                <img src="{{ asset('assets/images/index/(D3)PBUD 1.png') }}" alt="">
                             </a>
                             <div class="cate-item_content">
                                 <a href="{{ route('projects.index') }}">
@@ -339,7 +352,8 @@
                                     <div class="portfolio-info-inner">
                                         <h5><a class="title-link" href="{{ route('project.NgHouse') }}">NG House</a>
                                         </h5>
-                                        <p class="portfolio-cates"><a href="{{ route('project.NgHouse') }}">Pagesangan</a></p>
+                                        <p class="portfolio-cates"><a href="{{ route('project.NgHouse') }}">Pagesangan</a>
+                                        </p>
                                     </div>
                                     <a class="overlay" href="{{ route('project.NgHouse') }}"></a>
                                 </div>
@@ -361,7 +375,8 @@
                                     <div class="portfolio-info-inner">
                                         <h5><a class="title-link" href="{{ route('project.NsHouse') }}">N House</a>
                                         </h5>
-                                        <p class="portfolio-cates"><a href="{{ route('project.NsHouse') }}">Pondok Tjandra</a></p>
+                                        <p class="portfolio-cates"><a href="{{ route('project.NsHouse') }}">Pondok
+                                                Tjandra</a></p>
                                     </div>
                                     <a class="overlay" href="{{ route('project.NsHouse') }}"></a>
                                 </div>
@@ -383,7 +398,8 @@
                                     <div class="portfolio-info-inner">
                                         <h5><a class="title-link" href="{{ route('project.BPuryGalaxy') }}">B House</a>
                                         </h5>
-                                        <p class="portfolio-cates"><a href="{{ route('project.BPuryGalaxy') }}">Puri Galaxy</a></p>
+                                        <p class="portfolio-cates"><a href="{{ route('project.BPuryGalaxy') }}">Puri
+                                                Galaxy</a></p>
                                     </div>
                                     <a class="overlay" href="{{ route('project.BPuryGalaxy') }}"></a>
                                 </div>
@@ -405,7 +421,8 @@
                                     <div class="portfolio-info-inner">
                                         <h5><a class="title-link" href="{{ route('project.MsDiana') }}">D House</a>
                                         </h5>
-                                        <p class="portfolio-cates"><a href="{{ route('project.MsDiana') }}">Malang</a></p>
+                                        <p class="portfolio-cates"><a href="{{ route('project.MsDiana') }}">Malang</a>
+                                        </p>
                                     </div>
                                     <a class="overlay" href="{{ route('project.MsDiana') }}"></a>
                                 </div>
@@ -949,8 +966,7 @@
         </div>
     </section> --}}
 
-    <section class="cta"
-        style="background-image: url('{{ asset('assets/images/A/(A6)LAUR4-1.png') }}'); background-repeat: no-repeat; background-size: cover; padding: 70px 0 73px 0; color: #FFF;">
+    <section class="cta" style="background-image: url('{{ asset('assets/images/A/(A6)LAUR4-1.png') }}');">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mb-4 mb-lg-0">

@@ -55,7 +55,7 @@
                 <div class="side-panel-wrap">
                     <div class="the-logo">
                         <a href="index-html">
-                            <img src="{{ asset('assets/images/logo-home-3.svg') }}" alt="AL+">
+                            <img src="{{ asset('assets/images/AL_PLUS_white22.png') }}" alt="AL+">
                         </a>
                     </div>
                     <div class="ot-heading ">

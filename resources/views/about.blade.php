@@ -19,7 +19,7 @@
             <div class="row">
                 <div class="col-lg-6 col-md-12 align-self-center text-center mb-5 mb-lg-0">
                     <div class="about-img">
-                        <img src="{{ asset('assets/images/B/(B2)RNAS.png') }}" alt="About AL+">
+                        <img src="{{ asset('assets/images/B/(A2)GOLF7.png') }}" alt="About AL+">
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 align-self-center">

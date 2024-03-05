@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="page-header dtable text-center header-transparent pheader-portfolio"
-        style="background-image: url('{{ asset('assets/images/C/(C1) APR-1.png') }}'); background-repeat: no-repeat; background-size: cover; color: #FFF;">
+        style="background-image: url('{{ asset('assets/images/C/(A6)LAUR5 12.png') }}'); background-repeat: no-repeat; background-size: cover; color: #FFF;">
         <div class="dcell">
             <div class="container">
                 <h1 class="page-title">Here's What We Do</h1>
@@ -239,7 +239,8 @@
                                         <div class="portfolio-info-inner">
                                             <h5><a class="title-link" href="{{ route('project.BPuryGalaxy') }}">B House</a>
                                             </h5>
-                                            <p class="portfolio-cates"><a href="{{ route('project.BPuryGalaxy') }}">Puri Galaxy</a></p>
+                                            <p class="portfolio-cates"><a href="{{ route('project.BPuryGalaxy') }}">Puri
+                                                    Galaxy</a></p>
                                         </div>
                                         <a class="overlay" href="{{ route('project.BPuryGalaxy') }}"></a>
                                     </div>
@@ -263,7 +264,8 @@
                                         <div class="portfolio-info-inner">
                                             <h5><a class="title-link" href="{{ route('project.NgHouse') }}">NG House</a>
                                             </h5>
-                                            <p class="portfolio-cates"><a href="{{ route('project.NgHouse') }}">Pagesangan</a></p>
+                                            <p class="portfolio-cates"><a
+                                                    href="{{ route('project.NgHouse') }}">Pagesangan</a></p>
                                         </div>
                                         <a class="overlay" href="{{ route('project.NgHouse') }}"></a>
                                     </div>
@@ -285,7 +287,8 @@
                                         <div class="portfolio-info-inner">
                                             <h5><a class="title-link" href="{{ route('project.NsHouse') }}">N House</a>
                                             </h5>
-                                            <p class="portfolio-cates"><a href="{{ route('project.NsHouse') }}">Pondok Tjandra</a></p>
+                                            <p class="portfolio-cates"><a href="{{ route('project.NsHouse') }}">Pondok
+                                                    Tjandra</a></p>
                                         </div>
                                         <a class="overlay" href="{{ route('project.NsHouse') }}"></a>
                                     </div>
@@ -331,7 +334,8 @@
                                         <div class="portfolio-info-inner">
                                             <h5><a class="title-link" href="{{ route('project.MsDiana') }}">D House</a>
                                             </h5>
-                                            <p class="portfolio-cates"><a href="{{ route('project.MsDiana') }}">Malang</a></p>
+                                            <p class="portfolio-cates"><a href="{{ route('project.MsDiana') }}">Malang</a>
+                                            </p>
                                         </div>
                                         <a class="overlay" href="{{ route('project.MsDiana') }}"></a>
                                     </div>
