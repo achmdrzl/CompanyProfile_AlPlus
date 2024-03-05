@@ -162,7 +162,7 @@
                                     <a href="#" rel="tag">Interior</a>
                                     <a href="#" rel="tag">Trends</a>
                                 </div>
-                                @include('layouts.share-porto')
+                                @include('layouts.share-post')
                             </div>
                             <div class="related-posts">
                                 <h3>Related Posts</h3>
