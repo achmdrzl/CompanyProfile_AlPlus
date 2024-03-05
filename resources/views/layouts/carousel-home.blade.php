@@ -41,7 +41,7 @@
                         {{-- <img class="mobile-image" src="{{ asset('assets/images/index/MTXX_MH20230629_204259513 (1) 1.png') }}"
                         alt="Placeholder Image"> --}}
                     </div>
-                    <div>
+                    <div style="max-width: 100%; margin: 0 auto;">
                         <img class="mobile-image" src="{{ asset('assets/images/index/VEN02484 1.png') }}"
                             alt="Placeholder Image"
                             style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
