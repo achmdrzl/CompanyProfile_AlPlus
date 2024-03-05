@@ -21,9 +21,9 @@
                 <!-- SLIDE 1 -->
                 <li data-index="rs-70" data-transition="fade" data-slotamount="default" data-hideafterloop="0"
                     data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300"
-                    {{-- data-thumb="{{ asset('assets/video/A/UTUBE FORMAT POLOS - ALPLUS PANTRY - POLOS .mp4') }}" --}} data-rotate="0" data-saveperformance="off" data-title="" data-param1="1"
-                    data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7=""
-                    data-param8="" data-param9="" data-param10="" data-description="" data-delay="10000">
+                    data-rotate="0" data-saveperformance="off" data-title="" data-param1="1" data-param2=""
+                    data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8=""
+                    data-param9="" data-param10="" data-description="" data-delay="10000">
                     <!-- MAIN IMAGE -->
                     {{-- <img src="https://via.placeholder.com/1920x950.png" data-bgcolor='rgba(255,255,255,0)'
                         style='' alt="" data-bgposition="center center" data-bgfit="cover"
@@ -40,9 +40,9 @@
                     <div class="image-container">
                         {{-- <img class="mobile-image" src="{{ asset('assets/images/index/MTXX_MH20230629_204259513 (1) 1.png') }}"
                         alt="Placeholder Image"> --}}
+                        <img class="mobile-image" src="{{ asset('assets/images/index/VEN02484 1.png') }}"
+                            alt="Placeholder Image">
                     </div>
-                    <img class="mobile-image" src="{{ asset('assets/images/index/VEN02484 1.png') }}"
-                        alt="Placeholder Image">
 
 
                     <!-- LAYER 1  right image overlay dark-->
@@ -244,18 +244,20 @@
     </div>
 </div>
 
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
 <script>
     // Function to check screen width and show/hide elements accordingly
     function handleResponsiveLayout() {
-        var video = document.querySelector('.center-video');
-        var image = document.querySelector('.mobile-image');
+        var video = $('.center-video');
+        var image = $('.mobile-image');
 
         if (window.innerWidth <= 767) {
-            video.style.display = 'none';
-            image.style.display = 'block';
+            video.hide();
+            image.show();
         } else {
-            video.style.display = 'block';
-            image.style.display = 'none';
+            video.show();
+            image.hide();
         }
     }
 
@@ -263,5 +265,5 @@
     handleResponsiveLayout();
 
     // Attach the function to the window resize event
-    window.addEventListener('resize', handleResponsiveLayout);
+    $(window).on('resize', handleResponsiveLayout);
 </script>
