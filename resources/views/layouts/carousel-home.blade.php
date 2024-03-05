@@ -34,18 +34,18 @@
                     <!-- MAIN VIDEO -->
                     <!-- Video Container with Overlay -->
                     <div class="video-container">
-                        <video class="center-video desktop-video" controls loop muted autoplay>
-                            <source src="{{ asset('assets/video/A/UTUBE FORMAT POLOS - ALPLUS PANTRY - POLOS .mp4') }}"
-                                type="video/mp4">
-                        </video>
                     </div>
+                    <video class="center-video desktop-video" controls loop muted autoplay>
+                        <source src="{{ asset('assets/video/A/UTUBE FORMAT POLOS - ALPLUS PANTRY - POLOS .mp4') }}"
+                            type="video/mp4">
+                    </video>
 
                     <div class="image-container">
                         {{-- <img class="mobile-image" src="{{ asset('assets/images/index/MTXX_MH20230629_204259513 (1) 1.png') }}"
                         alt="Placeholder Image"> --}}
-                        <img class="mobile-image" src="{{ asset('assets/images/index/VEN02484 1.png') }}"
-                            alt="Placeholder Image" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
                     </div>
+                    <img class="mobile-image" src="{{ asset('assets/images/index/VEN02484 1.png') }}"
+                        alt="Placeholder Image" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
 
 
                     <!-- LAYER 1  right image overlay dark-->
