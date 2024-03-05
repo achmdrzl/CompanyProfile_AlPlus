@@ -1,6 +1,9 @@
 @push('style-alt')
     <style>
-
+        .img-fluid {
+            max-width: 100%;
+            height: auto;
+        }
     </style>
 @endpush
 
@@ -40,7 +43,7 @@
                     <div class="image-container">
                         {{-- <img class="mobile-image" src="{{ asset('assets/images/index/MTXX_MH20230629_204259513 (1) 1.png') }}"
                         alt="Placeholder Image"> --}}
-                        <img class="mobile-image" src="{{ asset('assets/images/index/VEN02484 1.png') }}"
+                        <img class="mobile-image img-fluid" src="{{ asset('assets/images/index/VEN02484 1.png') }}"
                             alt="Placeholder Image">
                     </div>
 
