@@ -42,9 +42,9 @@
                         alt="Placeholder Image"> --}}
                     </div>
                     <div style="max-width: 100%; margin: 0 auto;">
-                        <img class="mobile-image" src="{{ asset('assets/images/index/VEN02484 1.png') }}"
+                        {{-- <img class="mobile-image" src="{{ asset('assets/images/index/VEN02484 1.png') }}"
                             alt="Placeholder Image"
-                            style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+                            style="max-width: 100%; height: auto; display: block; margin: 0 auto;"> --}}
 
                         <video class="center-video desktop-video" controls loop muted autoplay>
                             <source src="{{ asset('assets/video/A/UTUBE FORMAT POLOS - ALPLUS PANTRY - POLOS .mp4') }}"
@@ -260,7 +260,7 @@
         var image = $('.mobile-image');
 
         if (window.innerWidth <= 767) {
-            video.css('display', 'none');
+            video.css('display', 'block');
             image.css('display', 'block');
         } else {
             image.css('display', 'none');
