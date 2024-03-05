@@ -35,18 +35,22 @@
                     <!-- Video Container with Overlay -->
                     <div class="video-container">
                     </div>
-                    <video class="center-video desktop-video" controls loop muted autoplay>
-                        <source src="{{ asset('assets/video/A/UTUBE FORMAT POLOS - ALPLUS PANTRY - POLOS .mp4') }}"
-                            type="video/mp4">
-                    </video>
+
 
                     <div class="image-container">
                         {{-- <img class="mobile-image" src="{{ asset('assets/images/index/MTXX_MH20230629_204259513 (1) 1.png') }}"
                         alt="Placeholder Image"> --}}
                     </div>
-                    <img class="mobile-image" src="{{ asset('assets/images/index/VEN02484 1.png') }}"
-                        alt="Placeholder Image" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+                    <div>
+                        <img class="mobile-image" src="{{ asset('assets/images/index/VEN02484 1.png') }}"
+                            alt="Placeholder Image"
+                            style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
 
+                        <video class="center-video desktop-video" controls loop muted autoplay>
+                            <source src="{{ asset('assets/video/A/UTUBE FORMAT POLOS - ALPLUS PANTRY - POLOS .mp4') }}"
+                                type="video/mp4">
+                        </video>
+                    </div>
 
                     <!-- LAYER 1  right image overlay dark-->
 
@@ -256,11 +260,11 @@
         var image = $('.mobile-image');
 
         if (window.innerWidth <= 767) {
-            video.hide();
-            image.show();
+            video.css('display', 'none');
+            image.css('display', 'block');
         } else {
-            video.show();
-            image.hide();
+            image.css('display', 'none');
+            video.css('display', 'display');
         }
     }
 
