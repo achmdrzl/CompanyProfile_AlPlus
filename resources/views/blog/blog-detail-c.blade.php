@@ -170,16 +170,7 @@
                                     <a href="#" rel="tag">Interior</a>
                                     <a href="#" rel="tag">Trends</a>
                                 </div>
-                                <div class="share-post">
-                                    <a class="twit" target="_blank" href="twitter.com" title="Twitter"><i
-                                            class="fab fa-twitter"></i></a>
-                                    <a class="face" target="_blank" href="facebook.com" title="Facebook"><i
-                                            class="fab fa-facebook-f"></i></a>
-                                    <a class="pint" target="_blank" href="pinterest.com" title="Pinterest"><i
-                                            class="fab fa-pinterest-p"></i></a>
-                                    <a class="linked" target="_blank" href="linkedin.com" title="LinkedIn"><i
-                                            class="fab fa-linkedin-in"></i></a>
-                                </div>
+                                @include('layouts.share-porto')
                             </div>
                             <div class="related-posts">
                                 <h3>Related Posts</h3>

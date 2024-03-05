@@ -45,11 +45,11 @@
                     {{-- <img class="mobile-image" src="{{ asset('assets/images/index/VEN02484 1.png') }}"
                         alt="Placeholder Image"
                         style="max-width: 100%; height: auto; display: block; margin: 0 auto;"> --}}
-                    <video class="center-video desktop-video" controls loop muted autoplay playsinline>
+                    <video class="center-video desktop-video" controls loop muted autoplay>
                         <source src="{{ asset('assets/video/A/UTUBE FORMAT POLOS - ALPLUS PANTRY - POLOS .mp4') }}"
                             type="video/mp4">
                     </video>
-
+                    
                     <!-- LAYER 1  right image overlay dark-->
 
                     <!-- LAYER 3  Thin text title-->
