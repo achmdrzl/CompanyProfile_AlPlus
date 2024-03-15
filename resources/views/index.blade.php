@@ -966,7 +966,7 @@
         </div>
     </section> --}}
 
-    <section class="cta" style="background-image: url('{{ asset('assets/images/A/(A6)LAUR4-1.png') }}');">
+    <section class="cta" style="background-image: url('{{ asset('assets/images/A/(A6)LAUR4-1a.png') }}');">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mb-4 mb-lg-0">
