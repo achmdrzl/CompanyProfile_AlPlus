@@ -39,7 +39,7 @@
         @media (max-width: 767px) {
             .cta {
                 background-size: contain;
-                background-position: center center;
+                background-position: center left;
                 background-repeat: no-repeat;
                 background-size: cover;
             }
